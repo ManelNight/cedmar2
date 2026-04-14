@@ -1,0 +1,2281 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.5), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "https://manelnight.github.io/cedmar2/docs/documentation/", "http://www.w3.org/1999/02/22-rdf-syntax-ns", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "http://dbpedia.org/ontology" ],
+    "title" : {
+      "undefined" : "CEDMAR Medical Device Ontology"
+    },
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "version" : "1.0",
+    "author" : [ "Manel Bañó Richart" ],
+    "description" : {
+      "en" : "Ontology for European Medical Devices and In Vitro Diagnostics (MDR/IVDR)."
+    },
+    "labels" : {
+      "en" : "CEDMAR Medical Device Ontology"
+    },
+    "comments" : {
+      "en" : "Ontology for European Medical Devices and In Vitro Diagnostics (MDR/IVDR)."
+    },
+    "other" : {
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Manel Bañó Richart",
+        "type" : "label"
+      } ],
+      "created" : [ {
+        "identifier" : "created",
+        "language" : "undefined",
+        "value" : "2026-04-13",
+        "type" : "label"
+      } ],
+      "source" : [ {
+        "identifier" : "source",
+        "language" : "undefined",
+        "value" : "https://github.com/ManelNight/cedmar2",
+        "type" : "iri"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "1.0",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "CEDMAR Medical Device Ontology",
+        "type" : "label"
+      } ],
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://creativecommons.org/licenses/by/4.0/",
+        "type" : "iri"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Colaborador Nombre",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "cedmar",
+        "type" : "label"
+      } ],
+      "logo" : [ {
+        "identifier" : "logo",
+        "language" : "undefined",
+        "value" : "https://manelnight.github.io/cedmar2/docs/logo.png",
+        "type" : "iri"
+      } ],
+      "publisher" : [ {
+        "identifier" : "publisher",
+        "language" : "undefined",
+        "value" : "UOC - Universitat Oberta de Catalunya",
+        "type" : "label"
+      } ],
+      "modified" : [ {
+        "identifier" : "modified",
+        "language" : "undefined",
+        "value" : "2026-04-13",
+        "type" : "label"
+      } ],
+      "bibliographicCitation" : [ {
+        "identifier" : "bibliographicCitation",
+        "language" : "en",
+        "value" : "Bañó Richart, M. (2026). CEDMAR Medical Device Ontology. Version 1.0.",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://manelnight.github.io/cedmar2/docs/documentation/#",
+        "type" : "label"
+      } ],
+      "issued" : [ {
+        "identifier" : "issued",
+        "language" : "undefined",
+        "value" : "2026-04-13",
+        "type" : "label"
+      } ],
+      "doi" : [ {
+        "identifier" : "doi",
+        "language" : "undefined",
+        "value" : "10.0000/cedmar.v1",
+        "type" : "label"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "6",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "19",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "23",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "18",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "5",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "26",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "28",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "30",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "45",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "50",
+    "type" : "owl:Class"
+  }, {
+    "id" : "70",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "15",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "89",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "63",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "92",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "93",
+    "type" : "owl:Class"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "35",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "56",
+    "type" : "rdfs:Datatype"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "101",
+    "type" : "owl:Class"
+  }, {
+    "id" : "9",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "104",
+    "type" : "owl:Class"
+  }, {
+    "id" : "126",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "114",
+    "type" : "owl:Class"
+  }, {
+    "id" : "106",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  }, {
+    "id" : "122",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "119",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "108",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "6",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#DevicePerformance",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DevicePerformance",
+      "en" : "Device Performance Risk"
+    },
+    "comment" : {
+      "en" : "Degradation in performance."
+    },
+    "id" : "19",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "2",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "23",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "18",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "5",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#MalfunctionRisk",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MalfunctionRisk",
+      "en" : "Malfunction Risk"
+    },
+    "individuals" : [ {
+      "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#RSK-009",
+      "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "https://www.imdrf.org/working-groups/adverse-event-terminology/annex-medical-device-problem/A0501",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Battery end-of-life earlier than specified."
+      },
+      "labels" : {
+        "IRI-based" : "RSK-009",
+        "en" : "Battery depletion - premature"
+      }
+    } ],
+    "comment" : {
+      "en" : "Mechanical/electrical malfunction."
+    },
+    "id" : "26",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "27",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "28",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#anyURI",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "29",
+    "label" : {
+      "IRI-based" : "anyURI"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "12",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "30",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "31",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#RadiationRisk",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RadiationRisk",
+      "en" : "Radiation Risk"
+    },
+    "comment" : {
+      "en" : "Radiation exposure."
+    },
+    "id" : "32",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#SingleUseDevice",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SingleUseDevice",
+      "en" : "Single Use Device"
+    },
+    "comment" : {
+      "en" : "Used for single procedure."
+    },
+    "id" : "33",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "39",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#SelfTestDevice",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SelfTestDevice",
+      "en" : "Self-Test Device"
+    },
+    "comment" : {
+      "en" : "Used by laypersons."
+    },
+    "id" : "40",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "41",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "45",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#integer",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "22",
+    "label" : {
+      "IRI-based" : "integer"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "48",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://dbpedia.org/ontology/Country",
+    "baseIri" : "http://dbpedia.org/ontology",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Country",
+      "en" : "Country"
+    },
+    "comment" : {
+      "en" : "Dbpedia Country"
+    },
+    "attributes" : [ "external" ],
+    "id" : "50"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#InterferenceRisk",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InterferenceRisk",
+      "en" : "Interference Risk"
+    },
+    "comment" : {
+      "en" : "EMI interference."
+    },
+    "id" : "70",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#InSituCorrection",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InSituCorrection",
+      "en" : "In Situ Correction"
+    },
+    "comment" : {
+      "en" : "Modification at facility."
+    },
+    "id" : "73",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "81",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#NearMissIncident",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "NearMissIncident",
+      "en" : "Near Miss Incident"
+    },
+    "comment" : {
+      "en" : "Could have caused harm."
+    },
+    "id" : "82",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#Incident",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Incident",
+      "en" : "Incident"
+    },
+    "subClasses" : [ "78", "82" ],
+    "comment" : {
+      "en" : "Vigilance event."
+    },
+    "id" : "17"
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "66",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "15",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#SeriousIncident",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SeriousIncident",
+      "en" : "Serious Incident"
+    },
+    "individuals" : [ {
+      "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#INC-001",
+      "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+      "comment" : {
+        "en" : "Incident for HeartMate 3."
+      },
+      "labels" : {
+        "IRI-based" : "INC-001",
+        "en" : "INC-001"
+      }
+    }, {
+      "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#INC-002",
+      "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+      "annotations" : {
+        "hasDetectDate" : [ {
+          "identifier" : "hasDetectDate",
+          "language" : "undefined",
+          "value" : "2024-02-01T00:00:00",
+          "type" : "label"
+        } ],
+        "hasEventDate" : [ {
+          "identifier" : "hasEventDate",
+          "language" : "undefined",
+          "value" : "2024-01-29T00:00:00",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Incident for Micra AV."
+      },
+      "labels" : {
+        "IRI-based" : "INC-002",
+        "en" : "INC-002"
+      }
+    } ],
+    "comment" : {
+      "en" : "Led to death or serious injury."
+    },
+    "id" : "78",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#ActiveImplant",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ActiveImplant",
+      "en" : "Active Implant"
+    },
+    "individuals" : [ {
+      "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#DEV-001",
+      "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+      "comment" : {
+        "en" : "Left ventricular assist device."
+      },
+      "labels" : {
+        "IRI-based" : "DEV-001",
+        "en" : "HeartMate 3 LVAD"
+      }
+    }, {
+      "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002",
+      "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+      "comment" : {
+        "en" : "Leadless cardiac pacemaker."
+      },
+      "labels" : {
+        "IRI-based" : "DEV-002",
+        "en" : "Micra AV Pacemaker"
+      }
+    } ],
+    "comment" : {
+      "en" : "Active and implantable."
+    },
+    "id" : "84",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "88",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "89",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "63",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "91",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#boolean",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "92",
+    "label" : {
+      "IRI-based" : "boolean"
+    }
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#Recall",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Recall",
+      "en" : "Recall"
+    },
+    "individuals" : [ {
+      "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-002",
+      "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+      "annotations" : {
+        "hasStartDate" : [ {
+          "identifier" : "hasStartDate",
+          "language" : "undefined",
+          "value" : "2024-02-28T00:00:00",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Recall for Micra AV."
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-002",
+        "en" : "FSCA-002"
+      }
+    } ],
+    "comment" : {
+      "en" : "Return of device."
+    },
+    "id" : "93",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "68",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#dateTime",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "94",
+    "label" : {
+      "IRI-based" : "dateTime"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "35",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "http://www.w3.org/2001/XMLSchema#string",
+    "baseIri" : "http://www.w3.org/2001/XMLSchema",
+    "id" : "56",
+    "label" : {
+      "IRI-based" : "string"
+    }
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#UserNotice",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UserNotice",
+      "en" : "User Notice"
+    },
+    "comment" : {
+      "en" : "Information to users."
+    },
+    "id" : "58",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#DiagnosticRisk",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DiagnosticRisk",
+      "en" : "Diagnostic Risk"
+    },
+    "comment" : {
+      "en" : "Risk in IVD."
+    },
+    "id" : "100",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#PatientHarm",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PatientHarm",
+      "en" : "Patient Harm"
+    },
+    "comment" : {
+      "en" : "Physical injury."
+    },
+    "id" : "101",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#Device",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Device",
+      "en" : "Medical Device"
+    },
+    "subClasses" : [ "84", "72", "40", "33", "75", "54" ],
+    "comment" : {
+      "en" : "Instrument intended for medical purposes."
+    },
+    "id" : "9"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RiskClass",
+      "en" : "Risk Class"
+    },
+    "individuals" : [ {
+      "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#ClassIII",
+      "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+      "comment" : {
+        "en" : "Highest risk class under MDR."
+      },
+      "labels" : {
+        "IRI-based" : "ClassIII",
+        "en" : "Class III"
+      }
+    }, {
+      "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#ClassIIb",
+      "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+      "comment" : {
+        "en" : "High risk class under MDR."
+      },
+      "labels" : {
+        "IRI-based" : "ClassIIb",
+        "en" : "Class IIb"
+      }
+    } ],
+    "comment" : {
+      "en" : "Regulatory classification."
+    },
+    "id" : "8"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#InfectionRisk",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InfectionRisk",
+      "en" : "Infection Risk"
+    },
+    "comment" : {
+      "en" : "Risk of infection."
+    },
+    "id" : "104",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#InjuryRisk",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InjuryRisk",
+      "en" : "Injury Risk"
+    },
+    "individuals" : [ {
+      "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#RSK-003",
+      "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "https://www.imdrf.org/working-groups/adverse-event-terminology/annex-medical-device-problem/A0201",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Thrombus formation on device."
+      },
+      "labels" : {
+        "IRI-based" : "RSK-003",
+        "en" : "Device-related Thrombosis"
+      }
+    } ],
+    "comment" : {
+      "en" : "Risk of injury."
+    },
+    "id" : "126",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CorrectiveAction",
+      "en" : "Corrective Action"
+    },
+    "subClasses" : [ "60", "58", "73", "93" ],
+    "comment" : {
+      "en" : "FSCA taken by manufacturer."
+    },
+    "id" : "21"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#DiagnosticError",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DiagnosticError",
+      "en" : "Diagnostic Error"
+    },
+    "comment" : {
+      "en" : "Error in diagnosis."
+    },
+    "id" : "114",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#InferenceRisk",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InferenceRisk",
+      "en" : "Inference Risk"
+    },
+    "comment" : {
+      "en" : "Risk derived from the data inference processes in medical software."
+    },
+    "id" : "106",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#Risk",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Risk",
+      "en" : "Risk"
+    },
+    "subClasses" : [ "130", "32", "19", "100", "126", "101", "116", "122", "119", "110", "108", "114", "112", "106", "104", "70", "26" ],
+    "comment" : {
+      "en" : "Adverse event or failure."
+    },
+    "id" : "1"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#ImplantableDevice",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ImplantableDevice",
+      "en" : "Implantable Device"
+    },
+    "comment" : {
+      "en" : "Introduced into body."
+    },
+    "id" : "54",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#InVitroDiagnosticDevice",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "InVitroDiagnosticDevice",
+      "en" : "IVD Device"
+    },
+    "comment" : {
+      "en" : "Examination of specimens."
+    },
+    "id" : "72",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#SafetyAlert",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SafetyAlert",
+      "en" : "Safety Alert"
+    },
+    "individuals" : [ {
+      "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-001",
+      "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+      "comment" : {
+        "en" : "Safety alert for HeartMate 3."
+      },
+      "labels" : {
+        "IRI-based" : "FSCA-001",
+        "en" : "FSCA-001"
+      }
+    } ],
+    "comment" : {
+      "en" : "Field Safety Notice."
+    },
+    "id" : "60",
+    "superClasses" : [ "21" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#ContaminationRisk",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ContaminationRisk",
+      "en" : "Contamination Risk"
+    },
+    "comment" : {
+      "en" : "Risk from biological, chemical, or particulate impurities."
+    },
+    "id" : "122",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#ProductQuality",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ProductQuality",
+      "en" : "Product Quality Risk"
+    },
+    "comment" : {
+      "en" : "Defect in manufacturing or performance degradation."
+    },
+    "id" : "130",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#ActiveDevice",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ActiveDevice",
+      "en" : "Active Device"
+    },
+    "comment" : {
+      "en" : "Depends on energy source."
+    },
+    "id" : "75",
+    "superClasses" : [ "9" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#DeviceSafety",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DeviceSafety",
+      "en" : "Device Safety Risk"
+    },
+    "comment" : {
+      "en" : "General safety risk."
+    },
+    "id" : "116",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#CybersecurityRisk",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CybersecurityRisk",
+      "en" : "Cybersecurity Risk"
+    },
+    "comment" : {
+      "en" : "Unauthorized access."
+    },
+    "id" : "119",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#MaterialRisk",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MaterialRisk",
+      "en" : "Material Risk"
+    },
+    "comment" : {
+      "en" : "Material degradation."
+    },
+    "id" : "110",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#SoftwareRisk",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SoftwareRisk",
+      "en" : "Software Risk"
+    },
+    "comment" : {
+      "en" : "Software anomaly."
+    },
+    "id" : "112",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#DeviceFailure",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DeviceFailure",
+      "en" : "Device Failure"
+    },
+    "comment" : {
+      "en" : "Failure to perform."
+    },
+    "id" : "108",
+    "superClasses" : [ "1" ]
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Manufacturer",
+      "en" : "Manufacturer"
+    },
+    "individuals" : [ {
+      "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#MAN-001",
+      "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "http://dbpedia.org/resource/Medtronic",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Multinational medical device manufacturer."
+      },
+      "labels" : {
+        "IRI-based" : "MAN-001",
+        "en" : "Medtronic plc"
+      }
+    }, {
+      "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#MAN-002",
+      "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+      "annotations" : {
+        "sameAs" : [ {
+          "identifier" : "sameAs",
+          "language" : "en",
+          "value" : "http://dbpedia.org/resource/Abbott_Laboratories",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "en" : "Global manufacturer."
+      },
+      "labels" : {
+        "IRI-based" : "MAN-002",
+        "en" : "Abbott Medical Devices"
+      }
+    } ],
+    "comment" : {
+      "en" : "Legal entity responsible for device."
+    },
+    "id" : "4"
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "3",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "7",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "11",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "13",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "14",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "16",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "20",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "24",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "34",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "36",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "37",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "38",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "42",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "44",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "46",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "47",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "49",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "51",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "52",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "53",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "55",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "57",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "59",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "61",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "62",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "64",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "65",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "67",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "69",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "71",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "74",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "76",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "77",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "79",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "80",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "83",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "85",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "86",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "87",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "90",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "95",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "96",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "97",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "99",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "102",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "103",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "105",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "107",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "115",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "118",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "121",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "123",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "125",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "127",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "124",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "128",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "133",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "135",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "136",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "10",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "137",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "138",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "139",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "140",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "141",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "142",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "143",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "144",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "145",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "43",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "146",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "147",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "148",
+    "type" : "owl:disjointWith"
+  }, {
+    "id" : "149",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "150",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "151",
+    "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "152",
+    "type" : "owl:objectProperty"
+  } ],
+  "propertyAttribute" : [ {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasProbability",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "2",
+    "label" : {
+      "IRI-based" : "hasProbability",
+      "en" : "has probability"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Probability of occurrence."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "0"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasLegalName",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "5",
+    "label" : {
+      "IRI-based" : "hasLegalName",
+      "en" : "has legal name"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Official legal name."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "3"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#isRiskClassOf",
+    "inverse" : "10",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "isRiskClassOf",
+      "en" : "is risk class of"
+    },
+    "domain" : "8",
+    "comment" : {
+      "en" : "Relates a risk class to the device assigned to it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "7"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasEmail",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "12",
+    "label" : {
+      "IRI-based" : "hasEmail",
+      "en" : "has email"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Contact email."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "11"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#exposedToRisk",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "exposedToRisk",
+      "en" : "exposed to risk"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Inferred property linking device to risk."
+    },
+    "attributes" : [ "object" ],
+    "id" : "13"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#isReusable",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "15",
+    "label" : {
+      "IRI-based" : "isReusable",
+      "en" : "is reusable"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Is reusable device."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "14"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasOutcome",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "hasOutcome",
+      "en" : "has outcome"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Clinical outcome."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "16"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#devicesAffected",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "22",
+    "label" : {
+      "IRI-based" : "devicesAffected",
+      "en" : "devices affected"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "Number of devices affected."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "20"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#actionAffectsDevice",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "actionAffectsDevice",
+      "en" : "action affects device"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "Inferred property linking action to device."
+    },
+    "attributes" : [ "object" ],
+    "id" : "24"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasManufacturer",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "hasManufacturer",
+      "en" : "has manufacturer"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Relates a medical device to its manufacturer."
+    },
+    "attributes" : [ "object" ],
+    "id" : "25"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasSeverity",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "35",
+    "label" : {
+      "IRI-based" : "hasSeverity",
+      "en" : "has severity"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Severity level."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "34"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasGeoScope",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "30",
+    "label" : {
+      "IRI-based" : "hasGeoScope",
+      "en" : "has geo scope"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "Regions or countries affected by a corrective action."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "36"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturerOf",
+    "inverse" : "25",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "isManufacturerOf",
+      "en" : "is manufacturer of"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Relates a manufacturer to the device it produces."
+    },
+    "attributes" : [ "object" ],
+    "id" : "37"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientSex",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "27",
+    "label" : {
+      "IRI-based" : "hasPatientSex",
+      "en" : "has patient sex"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Sex of patient."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "38"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#deviceInvolvedIn",
+    "inverse" : "43",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "deviceInvolvedIn",
+      "en" : "device involved in"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Relates a device to the incident it is involved in."
+    },
+    "attributes" : [ "object" ],
+    "id" : "42"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasPurpose",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "6",
+    "label" : {
+      "IRI-based" : "hasPurpose",
+      "en" : "has purpose"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Intended purpose."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "44"
+  }, {
+    "range" : "8",
+    "domain" : "1",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "46"
+  }, {
+    "range" : "8",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "47"
+  }, {
+    "range" : "1",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "49"
+  }, {
+    "range" : "1",
+    "domain" : "4",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "51"
+  }, {
+    "range" : "8",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "52"
+  }, {
+    "range" : "9",
+    "domain" : "54",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "53"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasSRN",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "56",
+    "label" : {
+      "IRI-based" : "hasSRN",
+      "en" : "has SRN"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Single Registration Number."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "55"
+  }, {
+    "range" : "21",
+    "domain" : "58",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "57"
+  }, {
+    "range" : "21",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "59"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#actionTaken",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "48",
+    "label" : {
+      "IRI-based" : "actionTaken",
+      "en" : "action taken"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Was action taken."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "61"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasStatus",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "63",
+    "label" : {
+      "IRI-based" : "hasStatus",
+      "en" : "has status"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "Status of the action."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "62"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#resolvesIncident",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "resolvesIncident",
+      "en" : "resolves incident"
+    },
+    "domain" : "21",
+    "comment" : {
+      "en" : "Relates a corrective action (FSCA) to the incident it resolves."
+    },
+    "attributes" : [ "object" ],
+    "id" : "64"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#reportedBy",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "66",
+    "label" : {
+      "IRI-based" : "reportedBy",
+      "en" : "reported by"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Reporting entity."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "65"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskName",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "68",
+    "label" : {
+      "IRI-based" : "hasRiskName",
+      "en" : "has risk name"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Name of the risk."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "67"
+  }, {
+    "range" : "9",
+    "domain" : "40",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "69"
+  }, {
+    "range" : "9",
+    "domain" : "72",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "71"
+  }, {
+    "range" : "9",
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "74"
+  }, {
+    "range" : "9",
+    "domain" : "33",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "76"
+  }, {
+    "range" : "17",
+    "domain" : "78",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "77"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#deviceAffectedByAction",
+    "inverse" : "24",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "deviceAffectedByAction",
+      "en" : "device affected by action"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Relates a device to the corrective action affecting it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "79"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#locatedIn",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "locatedIn",
+      "en" : "located in"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Relates a manufacturer to its geographical country."
+    },
+    "attributes" : [ "object" ],
+    "id" : "80"
+  }, {
+    "range" : "9",
+    "domain" : "84",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "83"
+  }, {
+    "range" : "17",
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "85"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasDeviceName",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "45",
+    "label" : {
+      "IRI-based" : "hasDeviceName",
+      "en" : "has device name"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Commercial or trade name of the medical device."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "86"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#incidentResolvedBy",
+    "inverse" : "64",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "21",
+    "label" : {
+      "IRI-based" : "incidentResolvedBy",
+      "en" : "incident resolved by"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Relates an incident to the corrective action that resolves it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "87"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#riskExposesDevice",
+    "inverse" : "13",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "riskExposesDevice",
+      "en" : "risk exposes device"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Relates a risk to the device exposed to it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "90"
+  }, {
+    "range" : "1",
+    "domain" : "26",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "95"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasFramework",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "31",
+    "label" : {
+      "IRI-based" : "hasFramework",
+      "en" : "has framework"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Regulatory framework MDR/IVDR."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "96"
+  }, {
+    "range" : "1",
+    "domain" : "70",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "97"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientAge",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "28",
+    "label" : {
+      "IRI-based" : "hasPatientAge",
+      "en" : "has patient age"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Age of patient."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "98"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#manufacturedIn",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "50",
+    "label" : {
+      "IRI-based" : "manufacturedIn",
+      "en" : "manufactured in"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Inferred property linking device to country."
+    },
+    "attributes" : [ "object" ],
+    "id" : "99"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasUDI",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "89",
+    "label" : {
+      "IRI-based" : "hasUDI",
+      "en" : "has UDI"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Unique Device Identifier."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "102"
+  }, {
+    "range" : "1",
+    "domain" : "104",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "103"
+  }, {
+    "range" : "1",
+    "domain" : "106",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "105"
+  }, {
+    "range" : "1",
+    "domain" : "108",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "107"
+  }, {
+    "range" : "1",
+    "domain" : "110",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "109"
+  }, {
+    "range" : "1",
+    "domain" : "112",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "111"
+  }, {
+    "range" : "1",
+    "domain" : "114",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "113"
+  }, {
+    "range" : "1",
+    "domain" : "116",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "115"
+  }, {
+    "range" : "1",
+    "domain" : "101",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "117"
+  }, {
+    "range" : "1",
+    "domain" : "119",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "118"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasAuthority",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "41",
+    "label" : {
+      "IRI-based" : "hasAuthority",
+      "en" : "has authority"
+    },
+    "domain" : "4",
+    "comment" : {
+      "en" : "Competent authority."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "120"
+  }, {
+    "range" : "1",
+    "domain" : "122",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "121"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#riskCausesIncident",
+    "inverse" : "124",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "17",
+    "label" : {
+      "IRI-based" : "riskCausesIncident",
+      "en" : "risk causes incident"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "Relates a risk to the incident it caused."
+    },
+    "attributes" : [ "object" ],
+    "id" : "123"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasDescription",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "39",
+    "label" : {
+      "IRI-based" : "hasDescription",
+      "en" : "has description"
+    },
+    "domain" : "81",
+    "comment" : {
+      "en" : "General description."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "125"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#isImplantable",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "88",
+    "label" : {
+      "IRI-based" : "isImplantable",
+      "en" : "is implantable"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Is implantable device."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "127"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#causedByRisk",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "1",
+    "label" : {
+      "IRI-based" : "causedByRisk",
+      "en" : "caused by risk"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Relates an incident to the specific IMDRF risk that caused it."
+    },
+    "attributes" : [ "object" ],
+    "id" : "124"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasEudamedRef",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "29",
+    "label" : {
+      "IRI-based" : "hasEudamedRef",
+      "en" : "has Eudamed ref"
+    },
+    "domain" : "81",
+    "comment" : {
+      "en" : "EUDAMED URL reference."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "128"
+  }, {
+    "range" : "1",
+    "domain" : "100",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "129"
+  }, {
+    "range" : "1",
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "131"
+  }, {
+    "range" : "1",
+    "domain" : "126",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "132"
+  }, {
+    "range" : "21",
+    "domain" : "93",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "133"
+  }, {
+    "range" : "21",
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "134"
+  }, {
+    "range" : "1",
+    "domain" : "32",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "135"
+  }, {
+    "range" : "1",
+    "domain" : "130",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "136"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskClass",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "8",
+    "label" : {
+      "IRI-based" : "hasRiskClass",
+      "en" : "has risk class"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Relates a device to its regulatory risk class."
+    },
+    "attributes" : [ "object" ],
+    "id" : "10"
+  }, {
+    "range" : "4",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "137"
+  }, {
+    "range" : "1",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "138"
+  }, {
+    "range" : "8",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "139"
+  }, {
+    "range" : "17",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "140"
+  }, {
+    "range" : "4",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "141"
+  }, {
+    "range" : "1",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "142"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#isActive",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "92",
+    "label" : {
+      "IRI-based" : "isActive",
+      "en" : "is active"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Is active device."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "143"
+  }, {
+    "range" : "8",
+    "domain" : "9",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "144"
+  }, {
+    "range" : "4",
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "145"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#involvesDevice",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "involvesDevice",
+      "en" : "involves device"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Relates an incident to the medical device involved."
+    },
+    "attributes" : [ "object" ],
+    "id" : "43"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#isLocationOf",
+    "inverse" : "80",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "4",
+    "label" : {
+      "IRI-based" : "isLocationOf",
+      "en" : "is location of"
+    },
+    "domain" : "50",
+    "comment" : {
+      "en" : "Relates a country to the manufacturer located there."
+    },
+    "attributes" : [ "object" ],
+    "id" : "146"
+  }, {
+    "range" : "9",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "147"
+  }, {
+    "range" : "17",
+    "domain" : "21",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "148"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasPriority",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "23",
+    "label" : {
+      "IRI-based" : "hasPriority",
+      "en" : "Has Priority"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Priority of ocurrence"
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "149"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#isIVD",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "91",
+    "label" : {
+      "IRI-based" : "isIVD",
+      "en" : "is IVD"
+    },
+    "domain" : "9",
+    "comment" : {
+      "en" : "Is in vitro diagnostic."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "150"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#hasReportDate",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "94",
+    "label" : {
+      "IRI-based" : "hasReportDate",
+      "en" : "has report date"
+    },
+    "domain" : "17",
+    "comment" : {
+      "en" : "Date of report."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "151"
+  }, {
+    "iri" : "https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturingLocationOf",
+    "inverse" : "99",
+    "baseIri" : "https://manelnight.github.io/cedmar2/docs/documentation/",
+    "range" : "9",
+    "label" : {
+      "IRI-based" : "isManufacturingLocationOf",
+      "en" : "is manufacturing location of"
+    },
+    "domain" : "50",
+    "comment" : {
+      "en" : "Relates a country to the device manufactured there."
+    },
+    "attributes" : [ "object" ],
+    "id" : "152"
+  } ]
+}

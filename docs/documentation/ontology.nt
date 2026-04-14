@@ -1,0 +1,956 @@
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://www.w3.org/2002/07/owl#versionIRI> <https://manelnight.github.io/cedmar2/docs/documentation/1.0.0> .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://purl.org/dc/elements/1.1/contributor> "Colaborador Nombre" .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://purl.org/dc/elements/1.1/creator> "Manel Bañó Richart" .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://purl.org/dc/elements/1.1/description> "Ontology for European Medical Devices and In Vitro Diagnostics (MDR/IVDR)."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://purl.org/dc/elements/1.1/publisher> "UOC - Universitat Oberta de Catalunya" .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://purl.org/dc/elements/1.1/title> "CEDMAR Medical Device Ontology" .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://purl.org/dc/terms/bibliographicCitation> "Bañó Richart, M. (2026). CEDMAR Medical Device Ontology. Version 1.0."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://purl.org/dc/terms/created> "2026-04-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://purl.org/dc/terms/issued> "2026-04-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://purl.org/dc/terms/license> <https://creativecommons.org/licenses/by/4.0/> .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://purl.org/dc/terms/modified> "2026-04-13"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://purl.org/dc/terms/source> <https://github.com/ManelNight/cedmar2> .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://purl.org/ontology/bibo/doi> "10.0000/cedmar.v1" .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://purl.org/vocab/vann/preferredNamespacePrefix> "cedmar" .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://purl.org/vocab/vann/preferredNamespaceUri> "https://manelnight.github.io/cedmar2/docs/documentation/#" .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://www.w3.org/2000/01/rdf-schema#comment> "Ontology for European Medical Devices and In Vitro Diagnostics (MDR/IVDR)."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://www.w3.org/2000/01/rdf-schema#label> "CEDMAR Medical Device Ontology"@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://www.w3.org/2002/07/owl#versionInfo> "1.0" .
+<https://manelnight.github.io/cedmar2/docs/documentation/> <http://xmlns.com/foaf/0.1/logo> <https://manelnight.github.io/cedmar2/docs/logo.png> .
+# 
+# 
+# #################################################################
+# #
+# #    Annotation properties
+# #
+# #################################################################
+# 
+# 
+# http://purl.org/dc/elements/1.1/contributor
+<http://purl.org/dc/elements/1.1/contributor> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/creator
+<http://purl.org/dc/elements/1.1/creator> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/description
+<http://purl.org/dc/elements/1.1/description> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/publisher
+<http://purl.org/dc/elements/1.1/publisher> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/elements/1.1/title
+<http://purl.org/dc/elements/1.1/title> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/bibliographicCitation
+<http://purl.org/dc/terms/bibliographicCitation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/created
+<http://purl.org/dc/terms/created> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/issued
+<http://purl.org/dc/terms/issued> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/license
+<http://purl.org/dc/terms/license> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/modified
+<http://purl.org/dc/terms/modified> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/dc/terms/source
+<http://purl.org/dc/terms/source> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/ontology/bibo/doi
+<http://purl.org/ontology/bibo/doi> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespacePrefix
+<http://purl.org/vocab/vann/preferredNamespacePrefix> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://purl.org/vocab/vann/preferredNamespaceUri
+<http://purl.org/vocab/vann/preferredNamespaceUri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled
+<http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://www.w3.org/2000/01/rdf-schema#sameAs
+<http://www.w3.org/2000/01/rdf-schema#sameAs> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# http://xmlns.com/foaf/0.1/logo
+<http://xmlns.com/foaf/0.1/logo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasDetectDate
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasDetectDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasEventDate
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasEventDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasStartDate
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasStartDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AnnotationProperty> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Datatypes
+# #
+# #################################################################
+# 
+# 
+# http://www.w3.org/2001/XMLSchema#date
+<http://www.w3.org/2001/XMLSchema#date> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Datatype> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Object Properties
+# #
+# #################################################################
+# 
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#actionAffectsDevice
+<https://manelnight.github.io/cedmar2/docs/documentation/#actionAffectsDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#actionAffectsDevice> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#actionAffectsDevice> <http://www.w3.org/2000/01/rdf-schema#range> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#actionAffectsDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Inferred property linking action to device."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#actionAffectsDevice> <http://www.w3.org/2000/01/rdf-schema#label> "action affects device"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#causedByRisk
+<https://manelnight.github.io/cedmar2/docs/documentation/#causedByRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#causedByRisk> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Incident> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#causedByRisk> <http://www.w3.org/2000/01/rdf-schema#range> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#causedByRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an incident to the specific IMDRF risk that caused it."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#causedByRisk> <http://www.w3.org/2000/01/rdf-schema#label> "caused by risk"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#deviceAffectedByAction
+<https://manelnight.github.io/cedmar2/docs/documentation/#deviceAffectedByAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#deviceAffectedByAction> <http://www.w3.org/2002/07/owl#inverseOf> <https://manelnight.github.io/cedmar2/docs/documentation/#actionAffectsDevice> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#deviceAffectedByAction> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#deviceAffectedByAction> <http://www.w3.org/2000/01/rdf-schema#range> <https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#deviceAffectedByAction> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a device to the corrective action affecting it."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#deviceAffectedByAction> <http://www.w3.org/2000/01/rdf-schema#label> "device affected by action"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#deviceInvolvedIn
+<https://manelnight.github.io/cedmar2/docs/documentation/#deviceInvolvedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#deviceInvolvedIn> <http://www.w3.org/2002/07/owl#inverseOf> <https://manelnight.github.io/cedmar2/docs/documentation/#involvesDevice> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#deviceInvolvedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#deviceInvolvedIn> <http://www.w3.org/2000/01/rdf-schema#range> <https://manelnight.github.io/cedmar2/docs/documentation/#Incident> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#deviceInvolvedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a device to the incident it is involved in."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#deviceInvolvedIn> <http://www.w3.org/2000/01/rdf-schema#label> "device involved in"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#exposedToRisk
+<https://manelnight.github.io/cedmar2/docs/documentation/#exposedToRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#exposedToRisk> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#exposedToRisk> <http://www.w3.org/2000/01/rdf-schema#range> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#exposedToRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Inferred property linking device to risk."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#exposedToRisk> <http://www.w3.org/2000/01/rdf-schema#label> "exposed to risk"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasManufacturer
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasManufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasManufacturer> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasManufacturer> <http://www.w3.org/2000/01/rdf-schema#range> <https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasManufacturer> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a medical device to its manufacturer."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasManufacturer> <http://www.w3.org/2000/01/rdf-schema#label> "has manufacturer"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskClass
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskClass> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskClass> <http://www.w3.org/2000/01/rdf-schema#range> <https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskClass> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a device to its regulatory risk class."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskClass> <http://www.w3.org/2000/01/rdf-schema#label> "has risk class"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#incidentResolvedBy
+<https://manelnight.github.io/cedmar2/docs/documentation/#incidentResolvedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#incidentResolvedBy> <http://www.w3.org/2002/07/owl#inverseOf> <https://manelnight.github.io/cedmar2/docs/documentation/#resolvesIncident> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#incidentResolvedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Incident> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#incidentResolvedBy> <http://www.w3.org/2000/01/rdf-schema#range> <https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#incidentResolvedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an incident to the corrective action that resolves it."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#incidentResolvedBy> <http://www.w3.org/2000/01/rdf-schema#label> "incident resolved by"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#involvesDevice
+<https://manelnight.github.io/cedmar2/docs/documentation/#involvesDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#involvesDevice> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Incident> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#involvesDevice> <http://www.w3.org/2000/01/rdf-schema#range> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#involvesDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates an incident to the medical device involved."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#involvesDevice> <http://www.w3.org/2000/01/rdf-schema#label> "involves device"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#isLocationOf
+<https://manelnight.github.io/cedmar2/docs/documentation/#isLocationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isLocationOf> <http://www.w3.org/2002/07/owl#inverseOf> <https://manelnight.github.io/cedmar2/docs/documentation/#locatedIn> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isLocationOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Country> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isLocationOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isLocationOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a country to the manufacturer located there."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isLocationOf> <http://www.w3.org/2000/01/rdf-schema#label> "is location of"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturerOf
+<https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturerOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturerOf> <http://www.w3.org/2002/07/owl#inverseOf> <https://manelnight.github.io/cedmar2/docs/documentation/#hasManufacturer> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturerOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturerOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturerOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a manufacturer to the device it produces."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturerOf> <http://www.w3.org/2000/01/rdf-schema#label> "is manufacturer of"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturingLocationOf
+<https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturingLocationOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturingLocationOf> <http://www.w3.org/2002/07/owl#inverseOf> <https://manelnight.github.io/cedmar2/docs/documentation/#manufacturedIn> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturingLocationOf> <http://www.w3.org/2000/01/rdf-schema#domain> <http://dbpedia.org/ontology/Country> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturingLocationOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturingLocationOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a country to the device manufactured there."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturingLocationOf> <http://www.w3.org/2000/01/rdf-schema#label> "is manufacturing location of"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#isRiskClassOf
+<https://manelnight.github.io/cedmar2/docs/documentation/#isRiskClassOf> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isRiskClassOf> <http://www.w3.org/2002/07/owl#inverseOf> <https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskClass> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isRiskClassOf> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isRiskClassOf> <http://www.w3.org/2000/01/rdf-schema#range> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isRiskClassOf> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a risk class to the device assigned to it."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isRiskClassOf> <http://www.w3.org/2000/01/rdf-schema#label> "is risk class of"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#locatedIn
+<https://manelnight.github.io/cedmar2/docs/documentation/#locatedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#locatedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#locatedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#locatedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a manufacturer to its geographical country."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#locatedIn> <http://www.w3.org/2000/01/rdf-schema#label> "located in"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#manufacturedIn
+<https://manelnight.github.io/cedmar2/docs/documentation/#manufacturedIn> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#manufacturedIn> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#manufacturedIn> <http://www.w3.org/2000/01/rdf-schema#range> <http://dbpedia.org/ontology/Country> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#manufacturedIn> <http://www.w3.org/2000/01/rdf-schema#comment> "Inferred property linking device to country."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#manufacturedIn> <http://www.w3.org/2000/01/rdf-schema#label> "manufactured in"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#resolvesIncident
+<https://manelnight.github.io/cedmar2/docs/documentation/#resolvesIncident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#resolvesIncident> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#resolvesIncident> <http://www.w3.org/2000/01/rdf-schema#range> <https://manelnight.github.io/cedmar2/docs/documentation/#Incident> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#resolvesIncident> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a corrective action (FSCA) to the incident it resolves."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#resolvesIncident> <http://www.w3.org/2000/01/rdf-schema#label> "resolves incident"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#riskCausesIncident
+<https://manelnight.github.io/cedmar2/docs/documentation/#riskCausesIncident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#riskCausesIncident> <http://www.w3.org/2002/07/owl#inverseOf> <https://manelnight.github.io/cedmar2/docs/documentation/#causedByRisk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#riskCausesIncident> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#riskCausesIncident> <http://www.w3.org/2000/01/rdf-schema#range> <https://manelnight.github.io/cedmar2/docs/documentation/#Incident> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#riskCausesIncident> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a risk to the incident it caused."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#riskCausesIncident> <http://www.w3.org/2000/01/rdf-schema#label> "risk causes incident"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#riskExposesDevice
+<https://manelnight.github.io/cedmar2/docs/documentation/#riskExposesDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#riskExposesDevice> <http://www.w3.org/2002/07/owl#inverseOf> <https://manelnight.github.io/cedmar2/docs/documentation/#exposedToRisk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#riskExposesDevice> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#riskExposesDevice> <http://www.w3.org/2000/01/rdf-schema#range> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#riskExposesDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Relates a risk to the device exposed to it."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#riskExposesDevice> <http://www.w3.org/2000/01/rdf-schema#label> "risk exposes device"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Data properties
+# #
+# #################################################################
+# 
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#actionTaken
+<https://manelnight.github.io/cedmar2/docs/documentation/#actionTaken> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#actionTaken> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Incident> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#actionTaken> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#actionTaken> <http://www.w3.org/2000/01/rdf-schema#comment> "Was action taken."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#actionTaken> <http://www.w3.org/2000/01/rdf-schema#label> "action taken"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#devicesAffected
+<https://manelnight.github.io/cedmar2/docs/documentation/#devicesAffected> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#devicesAffected> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#devicesAffected> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#devicesAffected> <http://www.w3.org/2000/01/rdf-schema#comment> "Number of devices affected."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#devicesAffected> <http://www.w3.org/2000/01/rdf-schema#label> "devices affected"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasAuthority
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasAuthority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasAuthority> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasAuthority> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasAuthority> <http://www.w3.org/2000/01/rdf-schema#comment> "Competent authority."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasAuthority> <http://www.w3.org/2000/01/rdf-schema#label> "has authority"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasDescription
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasDescription> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasDescription> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasDescription> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasDescription> <http://www.w3.org/2000/01/rdf-schema#comment> "General description."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasDescription> <http://www.w3.org/2000/01/rdf-schema#label> "has description"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasDeviceName
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasDeviceName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasDeviceName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasDeviceName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasDeviceName> <http://www.w3.org/2000/01/rdf-schema#comment> "Commercial or trade name of the medical device."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasDeviceName> <http://www.w3.org/2000/01/rdf-schema#label> "has device name"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasEmail
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasEmail> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasEmail> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasEmail> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasEmail> <http://www.w3.org/2000/01/rdf-schema#comment> "Contact email."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasEmail> <http://www.w3.org/2000/01/rdf-schema#label> "has email"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasEudamedRef
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasEudamedRef> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasEudamedRef> <http://www.w3.org/2000/01/rdf-schema#domain> <http://www.w3.org/2002/07/owl#Thing> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasEudamedRef> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasEudamedRef> <http://www.w3.org/2000/01/rdf-schema#comment> "EUDAMED URL reference."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasEudamedRef> <http://www.w3.org/2000/01/rdf-schema#label> "has Eudamed ref"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasFramework
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasFramework> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasFramework> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasFramework> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasFramework> <http://www.w3.org/2000/01/rdf-schema#comment> "Regulatory framework MDR/IVDR."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasFramework> <http://www.w3.org/2000/01/rdf-schema#label> "has framework"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasGeoScope
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasGeoScope> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasGeoScope> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasGeoScope> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasGeoScope> <http://www.w3.org/2000/01/rdf-schema#comment> "Regions or countries affected by a corrective action."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasGeoScope> <http://www.w3.org/2000/01/rdf-schema#label> "has geo scope"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasLegalName
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasLegalName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasLegalName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasLegalName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasLegalName> <http://www.w3.org/2000/01/rdf-schema#comment> "Official legal name."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasLegalName> <http://www.w3.org/2000/01/rdf-schema#label> "has legal name"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasOutcome
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasOutcome> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasOutcome> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Incident> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasOutcome> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasOutcome> <http://www.w3.org/2000/01/rdf-schema#comment> "Clinical outcome."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasOutcome> <http://www.w3.org/2000/01/rdf-schema#label> "has outcome"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientAge
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientAge> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientAge> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Incident> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientAge> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#integer> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientAge> <http://www.w3.org/2000/01/rdf-schema#comment> "Age of patient."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientAge> <http://www.w3.org/2000/01/rdf-schema#label> "has patient age"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientSex
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientSex> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientSex> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Incident> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientSex> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientSex> <http://www.w3.org/2000/01/rdf-schema#comment> "Sex of patient."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientSex> <http://www.w3.org/2000/01/rdf-schema#label> "has patient sex"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasPriority
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPriority> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPriority> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Incident> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPriority> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPriority> <http://www.w3.org/2000/01/rdf-schema#comment> "Priority of ocurrence"@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPriority> <http://www.w3.org/2000/01/rdf-schema#label> "Has Priority"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasProbability
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasProbability> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasProbability> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasProbability> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasProbability> <http://www.w3.org/2000/01/rdf-schema#comment> "Probability of occurrence."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasProbability> <http://www.w3.org/2000/01/rdf-schema#label> "has probability"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasPurpose
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPurpose> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPurpose> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPurpose> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPurpose> <http://www.w3.org/2000/01/rdf-schema#comment> "Intended purpose."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasPurpose> <http://www.w3.org/2000/01/rdf-schema#label> "has purpose"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasReportDate
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasReportDate> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasReportDate> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Incident> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasReportDate> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasReportDate> <http://www.w3.org/2000/01/rdf-schema#comment> "Date of report."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasReportDate> <http://www.w3.org/2000/01/rdf-schema#label> "has report date"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskName
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskName> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskName> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskName> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskName> <http://www.w3.org/2000/01/rdf-schema#comment> "Name of the risk."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskName> <http://www.w3.org/2000/01/rdf-schema#label> "has risk name"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasSRN
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasSRN> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasSRN> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasSRN> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasSRN> <http://www.w3.org/2000/01/rdf-schema#comment> "Single Registration Number."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasSRN> <http://www.w3.org/2000/01/rdf-schema#label> "has SRN"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasSeverity
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasSeverity> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasSeverity> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasSeverity> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasSeverity> <http://www.w3.org/2000/01/rdf-schema#comment> "Severity level."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasSeverity> <http://www.w3.org/2000/01/rdf-schema#label> "has severity"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasStatus
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasStatus> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasStatus> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasStatus> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasStatus> <http://www.w3.org/2000/01/rdf-schema#comment> "Status of the action."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasStatus> <http://www.w3.org/2000/01/rdf-schema#label> "has status"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#hasUDI
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasUDI> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasUDI> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasUDI> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasUDI> <http://www.w3.org/2000/01/rdf-schema#comment> "Unique Device Identifier."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#hasUDI> <http://www.w3.org/2000/01/rdf-schema#label> "has UDI"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#isActive
+<https://manelnight.github.io/cedmar2/docs/documentation/#isActive> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isActive> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isActive> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isActive> <http://www.w3.org/2000/01/rdf-schema#comment> "Is active device."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isActive> <http://www.w3.org/2000/01/rdf-schema#label> "is active"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#isIVD
+<https://manelnight.github.io/cedmar2/docs/documentation/#isIVD> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isIVD> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isIVD> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isIVD> <http://www.w3.org/2000/01/rdf-schema#comment> "Is in vitro diagnostic."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isIVD> <http://www.w3.org/2000/01/rdf-schema#label> "is IVD"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#isImplantable
+<https://manelnight.github.io/cedmar2/docs/documentation/#isImplantable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isImplantable> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isImplantable> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isImplantable> <http://www.w3.org/2000/01/rdf-schema#comment> "Is implantable device."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isImplantable> <http://www.w3.org/2000/01/rdf-schema#label> "is implantable"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#isReusable
+<https://manelnight.github.io/cedmar2/docs/documentation/#isReusable> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isReusable> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isReusable> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isReusable> <http://www.w3.org/2000/01/rdf-schema#comment> "Is reusable device."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#isReusable> <http://www.w3.org/2000/01/rdf-schema#label> "is reusable"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#reportedBy
+<https://manelnight.github.io/cedmar2/docs/documentation/#reportedBy> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#reportedBy> <http://www.w3.org/2000/01/rdf-schema#domain> <https://manelnight.github.io/cedmar2/docs/documentation/#Incident> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#reportedBy> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#string> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#reportedBy> <http://www.w3.org/2000/01/rdf-schema#comment> "Reporting entity."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#reportedBy> <http://www.w3.org/2000/01/rdf-schema#label> "reported by"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Classes
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/ontology/Country
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#comment> "Dbpedia Country"@en .
+<http://dbpedia.org/ontology/Country> <http://www.w3.org/2000/01/rdf-schema#label> "Country"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#ActiveDevice
+<https://manelnight.github.io/cedmar2/docs/documentation/#ActiveDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Depends on energy source."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ActiveDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Active Device"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#ActiveImplant
+<https://manelnight.github.io/cedmar2/docs/documentation/#ActiveImplant> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ActiveImplant> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ActiveImplant> <http://www.w3.org/2000/01/rdf-schema#comment> "Active and implantable."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ActiveImplant> <http://www.w3.org/2000/01/rdf-schema#label> "Active Implant"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#ContaminationRisk
+<https://manelnight.github.io/cedmar2/docs/documentation/#ContaminationRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ContaminationRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ContaminationRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Risk from biological, chemical, or particulate impurities."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ContaminationRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Contamination Risk"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction
+<https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction> <http://www.w3.org/2000/01/rdf-schema#comment> "FSCA taken by manufacturer."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction> <http://www.w3.org/2000/01/rdf-schema#label> "Corrective Action"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#CybersecurityRisk
+<https://manelnight.github.io/cedmar2/docs/documentation/#CybersecurityRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#CybersecurityRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#CybersecurityRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Unauthorized access."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#CybersecurityRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Cybersecurity Risk"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#Device
+<https://manelnight.github.io/cedmar2/docs/documentation/#Device> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#Device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid1 .
+_:genid1 <http://www.w3.org/2002/07/owl#onClass> <https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer> .
+_:genid1 <http://www.w3.org/2002/07/owl#minQualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid1 <http://www.w3.org/2002/07/owl#onProperty> <https://manelnight.github.io/cedmar2/docs/documentation/#hasManufacturer> .
+_:genid1 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#Device> <http://www.w3.org/2000/01/rdf-schema#subClassOf> _:genid2 .
+_:genid2 <http://www.w3.org/2002/07/owl#onClass> <https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass> .
+_:genid2 <http://www.w3.org/2002/07/owl#qualifiedCardinality> "1"^^<http://www.w3.org/2001/XMLSchema#nonNegativeInteger> .
+_:genid2 <http://www.w3.org/2002/07/owl#onProperty> <https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskClass> .
+_:genid2 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Restriction> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#Device> <http://www.w3.org/2000/01/rdf-schema#comment> "Instrument intended for medical purposes."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#Device> <http://www.w3.org/2000/01/rdf-schema#label> "Medical Device"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#DeviceFailure
+<https://manelnight.github.io/cedmar2/docs/documentation/#DeviceFailure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DeviceFailure> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DeviceFailure> <http://www.w3.org/2000/01/rdf-schema#comment> "Failure to perform."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DeviceFailure> <http://www.w3.org/2000/01/rdf-schema#label> "Device Failure"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#DevicePerformance
+<https://manelnight.github.io/cedmar2/docs/documentation/#DevicePerformance> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DevicePerformance> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DevicePerformance> <http://www.w3.org/2000/01/rdf-schema#comment> "Degradation in performance."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DevicePerformance> <http://www.w3.org/2000/01/rdf-schema#label> "Device Performance Risk"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#DeviceSafety
+<https://manelnight.github.io/cedmar2/docs/documentation/#DeviceSafety> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DeviceSafety> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DeviceSafety> <http://www.w3.org/2000/01/rdf-schema#comment> "General safety risk."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DeviceSafety> <http://www.w3.org/2000/01/rdf-schema#label> "Device Safety Risk"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#DiagnosticError
+<https://manelnight.github.io/cedmar2/docs/documentation/#DiagnosticError> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DiagnosticError> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DiagnosticError> <http://www.w3.org/2000/01/rdf-schema#comment> "Error in diagnosis."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DiagnosticError> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnostic Error"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#DiagnosticRisk
+<https://manelnight.github.io/cedmar2/docs/documentation/#DiagnosticRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DiagnosticRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DiagnosticRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Risk in IVD."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DiagnosticRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Diagnostic Risk"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#ImplantableDevice
+<https://manelnight.github.io/cedmar2/docs/documentation/#ImplantableDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ImplantableDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ImplantableDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Introduced into body."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ImplantableDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Implantable Device"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#InSituCorrection
+<https://manelnight.github.io/cedmar2/docs/documentation/#InSituCorrection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#InSituCorrection> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#InSituCorrection> <http://www.w3.org/2000/01/rdf-schema#comment> "Modification at facility."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#InSituCorrection> <http://www.w3.org/2000/01/rdf-schema#label> "In Situ Correction"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#InVitroDiagnosticDevice
+<https://manelnight.github.io/cedmar2/docs/documentation/#InVitroDiagnosticDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#InVitroDiagnosticDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#InVitroDiagnosticDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Examination of specimens."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#InVitroDiagnosticDevice> <http://www.w3.org/2000/01/rdf-schema#label> "IVD Device"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#Incident
+<https://manelnight.github.io/cedmar2/docs/documentation/#Incident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#Incident> <http://www.w3.org/2000/01/rdf-schema#comment> "Vigilance event."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#Incident> <http://www.w3.org/2000/01/rdf-schema#label> "Incident"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#InfectionRisk
+<https://manelnight.github.io/cedmar2/docs/documentation/#InfectionRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#InfectionRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#InfectionRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Risk of infection."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#InfectionRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Infection Risk"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#InferenceRisk
+<https://manelnight.github.io/cedmar2/docs/documentation/#InferenceRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#InferenceRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#InferenceRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Risk derived from the data inference processes in medical software."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#InferenceRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Inference Risk"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#InjuryRisk
+<https://manelnight.github.io/cedmar2/docs/documentation/#InjuryRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#InjuryRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#InjuryRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Risk of injury."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#InjuryRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Injury Risk"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#InterferenceRisk
+<https://manelnight.github.io/cedmar2/docs/documentation/#InterferenceRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#InterferenceRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#InterferenceRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "EMI interference."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#InterferenceRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Interference Risk"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#MalfunctionRisk
+<https://manelnight.github.io/cedmar2/docs/documentation/#MalfunctionRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MalfunctionRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MalfunctionRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Mechanical/electrical malfunction."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MalfunctionRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Malfunction Risk"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer
+<https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer> <http://www.w3.org/2000/01/rdf-schema#comment> "Legal entity responsible for device."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer> <http://www.w3.org/2000/01/rdf-schema#label> "Manufacturer"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#MaterialRisk
+<https://manelnight.github.io/cedmar2/docs/documentation/#MaterialRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MaterialRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MaterialRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Material degradation."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MaterialRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Material Risk"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#NearMissIncident
+<https://manelnight.github.io/cedmar2/docs/documentation/#NearMissIncident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#NearMissIncident> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Incident> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#NearMissIncident> <http://www.w3.org/2000/01/rdf-schema#comment> "Could have caused harm."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#NearMissIncident> <http://www.w3.org/2000/01/rdf-schema#label> "Near Miss Incident"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#PatientHarm
+<https://manelnight.github.io/cedmar2/docs/documentation/#PatientHarm> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#PatientHarm> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#PatientHarm> <http://www.w3.org/2000/01/rdf-schema#comment> "Physical injury."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#PatientHarm> <http://www.w3.org/2000/01/rdf-schema#label> "Patient Harm"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#ProductQuality
+<https://manelnight.github.io/cedmar2/docs/documentation/#ProductQuality> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ProductQuality> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ProductQuality> <http://www.w3.org/2000/01/rdf-schema#comment> "Defect in manufacturing or performance degradation."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ProductQuality> <http://www.w3.org/2000/01/rdf-schema#label> "Product Quality Risk"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#RadiationRisk
+<https://manelnight.github.io/cedmar2/docs/documentation/#RadiationRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RadiationRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RadiationRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Radiation exposure."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RadiationRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Radiation Risk"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#Recall
+<https://manelnight.github.io/cedmar2/docs/documentation/#Recall> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#Recall> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#Recall> <http://www.w3.org/2000/01/rdf-schema#comment> "Return of device."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#Recall> <http://www.w3.org/2000/01/rdf-schema#label> "Recall"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#Risk
+<https://manelnight.github.io/cedmar2/docs/documentation/#Risk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#Risk> <http://www.w3.org/2000/01/rdf-schema#comment> "Adverse event or failure."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#Risk> <http://www.w3.org/2000/01/rdf-schema#label> "Risk"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass
+<https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass> <http://www.w3.org/2000/01/rdf-schema#comment> "Regulatory classification."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass> <http://www.w3.org/2000/01/rdf-schema#label> "Risk Class"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#SafetyAlert
+<https://manelnight.github.io/cedmar2/docs/documentation/#SafetyAlert> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#SafetyAlert> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#SafetyAlert> <http://www.w3.org/2000/01/rdf-schema#comment> "Field Safety Notice."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#SafetyAlert> <http://www.w3.org/2000/01/rdf-schema#label> "Safety Alert"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#SelfTestDevice
+<https://manelnight.github.io/cedmar2/docs/documentation/#SelfTestDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#SelfTestDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#SelfTestDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Used by laypersons."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#SelfTestDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Self-Test Device"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#SeriousIncident
+<https://manelnight.github.io/cedmar2/docs/documentation/#SeriousIncident> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#SeriousIncident> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Incident> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#SeriousIncident> <http://www.w3.org/2000/01/rdf-schema#comment> "Led to death or serious injury."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#SeriousIncident> <http://www.w3.org/2000/01/rdf-schema#label> "Serious Incident"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#SingleUseDevice
+<https://manelnight.github.io/cedmar2/docs/documentation/#SingleUseDevice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#SingleUseDevice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#SingleUseDevice> <http://www.w3.org/2000/01/rdf-schema#comment> "Used for single procedure."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#SingleUseDevice> <http://www.w3.org/2000/01/rdf-schema#label> "Single Use Device"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#SoftwareRisk
+<https://manelnight.github.io/cedmar2/docs/documentation/#SoftwareRisk> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#SoftwareRisk> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#SoftwareRisk> <http://www.w3.org/2000/01/rdf-schema#comment> "Software anomaly."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#SoftwareRisk> <http://www.w3.org/2000/01/rdf-schema#label> "Software Risk"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#UserNotice
+<https://manelnight.github.io/cedmar2/docs/documentation/#UserNotice> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#UserNotice> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#UserNotice> <http://www.w3.org/2000/01/rdf-schema#comment> "Information to users."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#UserNotice> <http://www.w3.org/2000/01/rdf-schema#label> "User Notice"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Individuals
+# #
+# #################################################################
+# 
+# 
+# http://dbpedia.org/resource/Germany
+<http://dbpedia.org/resource/Germany> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# http://dbpedia.org/resource/Ireland
+<http://dbpedia.org/resource/Ireland> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#ClassIII
+<https://manelnight.github.io/cedmar2/docs/documentation/#ClassIII> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ClassIII> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ClassIII> <http://www.w3.org/2000/01/rdf-schema#comment> "Highest risk class under MDR."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ClassIII> <http://www.w3.org/2000/01/rdf-schema#label> "Class III"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#ClassIIb
+<https://manelnight.github.io/cedmar2/docs/documentation/#ClassIIb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ClassIIb> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ClassIIb> <http://www.w3.org/2000/01/rdf-schema#comment> "High risk class under MDR."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#ClassIIb> <http://www.w3.org/2000/01/rdf-schema#label> "Class IIb"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#DEV-001
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://manelnight.github.io/cedmar2/docs/documentation/#ActiveImplant> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-001> <https://manelnight.github.io/cedmar2/docs/documentation/#hasManufacturer> <https://manelnight.github.io/cedmar2/docs/documentation/#MAN-001> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-001> <https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskClass> <https://manelnight.github.io/cedmar2/docs/documentation/#ClassIII> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-001> <https://manelnight.github.io/cedmar2/docs/documentation/#hasDeviceName> "HeartMate 3 LVAD" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-001> <https://manelnight.github.io/cedmar2/docs/documentation/#hasUDI> "(01)00380740009095" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-001> <http://www.w3.org/2000/01/rdf-schema#comment> "Left ventricular assist device."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-001> <http://www.w3.org/2000/01/rdf-schema#label> "HeartMate 3 LVAD"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://manelnight.github.io/cedmar2/docs/documentation/#ActiveImplant> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasManufacturer> <https://manelnight.github.io/cedmar2/docs/documentation/#MAN-001> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskClass> <https://manelnight.github.io/cedmar2/docs/documentation/#ClassIII> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasDeviceName> "Micra AV Transcatheter Pacing System" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasFramework> "MDR" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasPurpose> "Leadless cardiac pacemaker for atrioventricular synchrony" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasUDI> "(01)00380740009112" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002> <https://manelnight.github.io/cedmar2/docs/documentation/#isActive> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002> <https://manelnight.github.io/cedmar2/docs/documentation/#isIVD> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002> <https://manelnight.github.io/cedmar2/docs/documentation/#isImplantable> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002> <https://manelnight.github.io/cedmar2/docs/documentation/#isReusable> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002> <http://www.w3.org/2000/01/rdf-schema#comment> "Leadless cardiac pacemaker."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002> <http://www.w3.org/2000/01/rdf-schema#label> "Micra AV Pacemaker"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-001
+<https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://manelnight.github.io/cedmar2/docs/documentation/#SafetyAlert> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-001> <https://manelnight.github.io/cedmar2/docs/documentation/#resolvesIncident> <https://manelnight.github.io/cedmar2/docs/documentation/#INC-001> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-001> <https://manelnight.github.io/cedmar2/docs/documentation/#hasStatus> "Open" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-001> <http://www.w3.org/2000/01/rdf-schema#comment> "Safety alert for HeartMate 3."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-001> <http://www.w3.org/2000/01/rdf-schema#label> "FSCA-001"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-002
+<https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://manelnight.github.io/cedmar2/docs/documentation/#Recall> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-002> <https://manelnight.github.io/cedmar2/docs/documentation/#resolvesIncident> <https://manelnight.github.io/cedmar2/docs/documentation/#INC-002> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-002> <https://manelnight.github.io/cedmar2/docs/documentation/#devicesAffected> "1240"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasDescription> "Voluntary recall due to premature battery depletion. Replacement units provided." .
+<https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasEudamedRef> "EU-FSCA-2024-000002"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasGeoScope> "Micra AV lots manufactured between 2022-09 and 2023-03" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasStatus> "Closed" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-002> <http://www.w3.org/2000/01/rdf-schema#comment> "Recall for Micra AV."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-002> <http://www.w3.org/2000/01/rdf-schema#label> "FSCA-002"@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasStartDate> "2024-02-28T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#INC-001
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://manelnight.github.io/cedmar2/docs/documentation/#SeriousIncident> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-001> <https://manelnight.github.io/cedmar2/docs/documentation/#causedByRisk> <https://manelnight.github.io/cedmar2/docs/documentation/#RSK-003> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-001> <https://manelnight.github.io/cedmar2/docs/documentation/#involvesDevice> <https://manelnight.github.io/cedmar2/docs/documentation/#DEV-001> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-001> <https://manelnight.github.io/cedmar2/docs/documentation/#hasOutcome> "Serious patient injury - embolic stroke" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-001> <http://www.w3.org/2000/01/rdf-schema#comment> "Incident for HeartMate 3."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-001> <http://www.w3.org/2000/01/rdf-schema#label> "INC-001"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#INC-002
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://manelnight.github.io/cedmar2/docs/documentation/#SeriousIncident> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-002> <https://manelnight.github.io/cedmar2/docs/documentation/#causedByRisk> <https://manelnight.github.io/cedmar2/docs/documentation/#RSK-009> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-002> <https://manelnight.github.io/cedmar2/docs/documentation/#involvesDevice> <https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-002> <https://manelnight.github.io/cedmar2/docs/documentation/#actionTaken> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasEudamedRef> "EU-INC-2024-000002"^^<http://www.w3.org/2001/XMLSchema#anyURI> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasOutcome> "Device malfunction - premature battery depletion" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientAge> "72"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientSex> "Female" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasReportDate> "2024-02-03T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-002> <https://manelnight.github.io/cedmar2/docs/documentation/#reportedBy> "MAN-001" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-002> <http://www.w3.org/2000/01/rdf-schema#comment> "Incident for Micra AV."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-002> <http://www.w3.org/2000/01/rdf-schema#label> "INC-002"@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasDetectDate> "2024-02-01T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#INC-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasEventDate> "2024-01-29T00:00:00"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#MAN-001
+<https://manelnight.github.io/cedmar2/docs/documentation/#MAN-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MAN-001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MAN-001> <https://manelnight.github.io/cedmar2/docs/documentation/#locatedIn> <http://dbpedia.org/resource/Ireland> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MAN-001> <https://manelnight.github.io/cedmar2/docs/documentation/#hasAuthority> "Health Products Regulatory Authority (HPRA)" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MAN-001> <https://manelnight.github.io/cedmar2/docs/documentation/#hasEmail> "regulatory@medtronic.com" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MAN-001> <https://manelnight.github.io/cedmar2/docs/documentation/#hasLegalName> "Medtronic plc" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MAN-001> <https://manelnight.github.io/cedmar2/docs/documentation/#hasSRN> "SRN-IE-MED-0001" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MAN-001> <http://www.w3.org/2000/01/rdf-schema#comment> "Multinational medical device manufacturer."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MAN-001> <http://www.w3.org/2000/01/rdf-schema#label> "Medtronic plc"@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MAN-001> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://dbpedia.org/resource/Medtronic"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#MAN-002
+<https://manelnight.github.io/cedmar2/docs/documentation/#MAN-002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MAN-002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MAN-002> <https://manelnight.github.io/cedmar2/docs/documentation/#locatedIn> <http://dbpedia.org/resource/Germany> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MAN-002> <https://manelnight.github.io/cedmar2/docs/documentation/#hasLegalName> "Abbott Laboratories" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MAN-002> <http://www.w3.org/2000/01/rdf-schema#comment> "Global manufacturer."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MAN-002> <http://www.w3.org/2000/01/rdf-schema#label> "Abbott Medical Devices"@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#MAN-002> <http://www.w3.org/2000/01/rdf-schema#sameAs> "http://dbpedia.org/resource/Abbott_Laboratories"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#RSK-003
+<https://manelnight.github.io/cedmar2/docs/documentation/#RSK-003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RSK-003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://manelnight.github.io/cedmar2/docs/documentation/#InjuryRisk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RSK-003> <https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskName> "Thrombosis - device-related" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RSK-003> <https://manelnight.github.io/cedmar2/docs/documentation/#hasSeverity> "Critical" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RSK-003> <http://www.w3.org/2000/01/rdf-schema#comment> "Thrombus formation on device."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RSK-003> <http://www.w3.org/2000/01/rdf-schema#label> "Device-related Thrombosis"@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RSK-003> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://www.imdrf.org/working-groups/adverse-event-terminology/annex-medical-device-problem/A0201"@en .
+# 
+# https://manelnight.github.io/cedmar2/docs/documentation/#RSK-009
+<https://manelnight.github.io/cedmar2/docs/documentation/#RSK-009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#NamedIndividual> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RSK-009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <https://manelnight.github.io/cedmar2/docs/documentation/#MalfunctionRisk> .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RSK-009> <https://manelnight.github.io/cedmar2/docs/documentation/#hasDescription> "Battery end-of-life earlier than specified, risking therapy interruption" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RSK-009> <https://manelnight.github.io/cedmar2/docs/documentation/#hasProbability> "Low" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RSK-009> <https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskName> "Battery depletion - premature" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RSK-009> <https://manelnight.github.io/cedmar2/docs/documentation/#hasSeverity> "Critical" .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RSK-009> <http://www.w3.org/2000/01/rdf-schema#comment> "Battery end-of-life earlier than specified."@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RSK-009> <http://www.w3.org/2000/01/rdf-schema#label> "Battery depletion - premature"@en .
+<https://manelnight.github.io/cedmar2/docs/documentation/#RSK-009> <http://www.w3.org/2000/01/rdf-schema#sameAs> "https://www.imdrf.org/working-groups/adverse-event-terminology/annex-medical-device-problem/A0501"@en .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    General axioms
+# #
+# #################################################################
+# 
+# 
+_:genid3 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#AllDisjointClasses> .
+_:genid3 <http://www.w3.org/2002/07/owl#members> _:genid9 .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid8 .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid7 .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid6 .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid5 .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid4 .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass> .
+_:genid4 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://manelnight.github.io/cedmar2/docs/documentation/#Risk> .
+_:genid5 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer> .
+_:genid6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://manelnight.github.io/cedmar2/docs/documentation/#Incident> .
+_:genid7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+_:genid8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction> .
+_:genid9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/1999/02/22-rdf-syntax-ns#List> .
+# 
+# 
+# 
+# #################################################################
+# #
+# #    Rules
+# #
+# #################################################################
+# 
+# 
+<https://manelnight.github.io/CEDMAR/docs/documentation#d> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<https://manelnight.github.io/CEDMAR/docs/documentation#m> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<https://manelnight.github.io/CEDMAR/docs/documentation#c> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<https://manelnight.github.io/CEDMAR/docs/documentation#i> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+<https://manelnight.github.io/CEDMAR/docs/documentation#r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Variable> .
+_:genid10 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid10 <http://www.w3.org/2000/01/rdf-schema#comment> "Infers the manufacturing country of a device based on its manufacturer." .
+_:genid10 <http://www.w3.org/2000/01/rdf-schema#label> "Rule3_ManufacturedIn" .
+_:genid10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid10 <http://www.w3.org/2003/11/swrl#body> _:genid15 .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid13 .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid11 .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid12 .
+_:genid12 <http://www.w3.org/2003/11/swrl#argument2> <https://manelnight.github.io/CEDMAR/docs/documentation#m> .
+_:genid12 <http://www.w3.org/2003/11/swrl#argument1> <https://manelnight.github.io/CEDMAR/docs/documentation#d> .
+_:genid12 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://manelnight.github.io/cedmar2/docs/documentation/#hasManufacturer> .
+_:genid12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid14 .
+_:genid14 <http://www.w3.org/2003/11/swrl#argument2> <https://manelnight.github.io/CEDMAR/docs/documentation#c> .
+_:genid14 <http://www.w3.org/2003/11/swrl#argument1> <https://manelnight.github.io/CEDMAR/docs/documentation#m> .
+_:genid14 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://manelnight.github.io/cedmar2/docs/documentation/#locatedIn> .
+_:genid14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid16 .
+_:genid16 <http://www.w3.org/2003/11/swrl#argument1> <https://manelnight.github.io/CEDMAR/docs/documentation#d> .
+_:genid16 <http://www.w3.org/2003/11/swrl#classPredicate> <https://manelnight.github.io/cedmar2/docs/documentation/#Device> .
+_:genid16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid10 <http://www.w3.org/2003/11/swrl#head> _:genid17 .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid18 .
+_:genid18 <http://www.w3.org/2003/11/swrl#argument2> <https://manelnight.github.io/CEDMAR/docs/documentation#c> .
+_:genid18 <http://www.w3.org/2003/11/swrl#argument1> <https://manelnight.github.io/CEDMAR/docs/documentation#d> .
+_:genid18 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://manelnight.github.io/cedmar2/docs/documentation/#manufacturedIn> .
+_:genid18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid19 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid19 <http://www.w3.org/2000/01/rdf-schema#comment> "Infers which devices are affected by a corrective action." .
+_:genid19 <http://www.w3.org/2000/01/rdf-schema#label> "Rule2_ActionAffects" .
+_:genid19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid19 <http://www.w3.org/2003/11/swrl#body> _:genid24 .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid22 .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid20 .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid21 .
+_:genid21 <http://www.w3.org/2003/11/swrl#argument1> <https://manelnight.github.io/CEDMAR/docs/documentation#c> .
+_:genid21 <http://www.w3.org/2003/11/swrl#classPredicate> <https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction> .
+_:genid21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid23 .
+_:genid23 <http://www.w3.org/2003/11/swrl#argument2> <https://manelnight.github.io/CEDMAR/docs/documentation#d> .
+_:genid23 <http://www.w3.org/2003/11/swrl#argument1> <https://manelnight.github.io/CEDMAR/docs/documentation#i> .
+_:genid23 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://manelnight.github.io/cedmar2/docs/documentation/#involvesDevice> .
+_:genid23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid25 .
+_:genid25 <http://www.w3.org/2003/11/swrl#argument2> <https://manelnight.github.io/CEDMAR/docs/documentation#i> .
+_:genid25 <http://www.w3.org/2003/11/swrl#argument1> <https://manelnight.github.io/CEDMAR/docs/documentation#c> .
+_:genid25 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://manelnight.github.io/cedmar2/docs/documentation/#resolvesIncident> .
+_:genid25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid19 <http://www.w3.org/2003/11/swrl#head> _:genid26 .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid27 .
+_:genid27 <http://www.w3.org/2003/11/swrl#argument2> <https://manelnight.github.io/CEDMAR/docs/documentation#d> .
+_:genid27 <http://www.w3.org/2003/11/swrl#argument1> <https://manelnight.github.io/CEDMAR/docs/documentation#c> .
+_:genid27 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://manelnight.github.io/cedmar2/docs/documentation/#actionAffectsDevice> .
+_:genid27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid28 <http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+_:genid28 <http://www.w3.org/2000/01/rdf-schema#comment> "Infers the risk a device is exposed to based on its incidents." .
+_:genid28 <http://www.w3.org/2000/01/rdf-schema#label> "Rule1_ExposedToRisk" .
+_:genid28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#Imp> .
+_:genid28 <http://www.w3.org/2003/11/swrl#body> _:genid33 .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid31 .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> _:genid29 .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid30 .
+_:genid30 <http://www.w3.org/2003/11/swrl#argument1> <https://manelnight.github.io/CEDMAR/docs/documentation#i> .
+_:genid30 <http://www.w3.org/2003/11/swrl#classPredicate> <https://manelnight.github.io/cedmar2/docs/documentation/#Incident> .
+_:genid30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#ClassAtom> .
+_:genid29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid32 .
+_:genid32 <http://www.w3.org/2003/11/swrl#argument2> <https://manelnight.github.io/CEDMAR/docs/documentation#d> .
+_:genid32 <http://www.w3.org/2003/11/swrl#argument1> <https://manelnight.github.io/CEDMAR/docs/documentation#i> .
+_:genid32 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://manelnight.github.io/cedmar2/docs/documentation/#involvesDevice> .
+_:genid32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid34 .
+_:genid34 <http://www.w3.org/2003/11/swrl#argument2> <https://manelnight.github.io/CEDMAR/docs/documentation#r> .
+_:genid34 <http://www.w3.org/2003/11/swrl#argument1> <https://manelnight.github.io/CEDMAR/docs/documentation#i> .
+_:genid34 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://manelnight.github.io/cedmar2/docs/documentation/#causedByRisk> .
+_:genid34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+_:genid28 <http://www.w3.org/2003/11/swrl#head> _:genid35 .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> _:genid36 .
+_:genid36 <http://www.w3.org/2003/11/swrl#argument2> <https://manelnight.github.io/CEDMAR/docs/documentation#r> .
+_:genid36 <http://www.w3.org/2003/11/swrl#argument1> <https://manelnight.github.io/CEDMAR/docs/documentation#d> .
+_:genid36 <http://www.w3.org/2003/11/swrl#propertyPredicate> <https://manelnight.github.io/cedmar2/docs/documentation/#exposedToRisk> .
+_:genid36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#IndividualPropertyAtom> .
+_:genid35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2003/11/swrl#AtomList> .
+# Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/

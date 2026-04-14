@@ -1,0 +1,14 @@
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix dc: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix : <> .
+<https://manelnight.github.io/cedmar2/docs/documentation/1.0.0> a prov:Entity;
+	 dc:title "CEDMAR Medical Device Ontology";
+	 prov:wasAttributedTo :agent0;
+	 prov:wasAttributedTo :agent1;
+	 prov:wasAttributedTo <https://github.com/dgarijo/Widoco/>,<http://www.essepuntato.it/lode/>;
+	 prov:specializationOf <https://manelnight.github.io/cedmar2/docs/documentation/#>;
+	 prov:wasGeneratedAt "2026-04-13";
+.
+:agent0 a prov:Agent; foaf:name "Manel Bañó Richart".
+:agent1 a prov:Agent; foaf:name "Colaborador Nombre".

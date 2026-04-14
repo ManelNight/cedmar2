@@ -1,0 +1,1643 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="https://manelnight.github.io/cedmar2/docs/documentation/"
+     xml:base="https://manelnight.github.io/cedmar2/docs/documentation/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:bibo="http://purl.org/ontology/bibo/"
+     xmlns:foaf="http://xmlns.com/foaf/0.1/"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:swrl="http://www.w3.org/2003/11/swrl#"
+     xmlns:vann="http://purl.org/vocab/vann/"
+     xmlns:swrla="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#"
+     xmlns:swrlb="http://www.w3.org/2003/11/swrlb#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:documentation="https://manelnight.github.io/cedmar2/docs/documentation/#">
+    <owl:Ontology rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/">
+        <owl:versionIRI rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/1.0.0"/>
+        <dc:contributor>Colaborador Nombre</dc:contributor>
+        <dc:creator>Manel Bañó Richart</dc:creator>
+        <dc:description xml:lang="en">Ontology for European Medical Devices and In Vitro Diagnostics (MDR/IVDR).</dc:description>
+        <dc:publisher>UOC - Universitat Oberta de Catalunya</dc:publisher>
+        <dc:title>CEDMAR Medical Device Ontology</dc:title>
+        <terms:bibliographicCitation xml:lang="en">Bañó Richart, M. (2026). CEDMAR Medical Device Ontology. Version 1.0.</terms:bibliographicCitation>
+        <terms:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-13</terms:created>
+        <terms:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-13</terms:issued>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by/4.0/"/>
+        <terms:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2026-04-13</terms:modified>
+        <terms:source rdf:resource="https://github.com/ManelNight/cedmar2"/>
+        <bibo:doi>10.0000/cedmar.v1</bibo:doi>
+        <vann:preferredNamespacePrefix>cedmar</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri>https://manelnight.github.io/cedmar2/docs/documentation/#</vann:preferredNamespaceUri>
+        <rdfs:comment xml:lang="en">Ontology for European Medical Devices and In Vitro Diagnostics (MDR/IVDR).</rdfs:comment>
+        <rdfs:label xml:lang="en">CEDMAR Medical Device Ontology</rdfs:label>
+        <owl:versionInfo>1.0</owl:versionInfo>
+        <foaf:logo rdf:resource="https://manelnight.github.io/cedmar2/docs/logo.png"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/contributor -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/contributor"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/creator -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/creator"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/publisher -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/publisher"/>
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/title -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/title"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/bibliographicCitation -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/bibliographicCitation"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/created -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/created"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/issued -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/issued"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/license -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/license"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/modified -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/modified"/>
+    
+
+
+    <!-- http://purl.org/dc/terms/source -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/terms/source"/>
+    
+
+
+    <!-- http://purl.org/ontology/bibo/doi -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/ontology/bibo/doi"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespacePrefix -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespacePrefix"/>
+    
+
+
+    <!-- http://purl.org/vocab/vann/preferredNamespaceUri -->
+
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/vocab/vann/preferredNamespaceUri"/>
+    
+
+
+    <!-- http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled -->
+
+
+    <owl:AnnotationProperty rdf:about="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    
+
+
+    <!-- http://www.w3.org/2000/01/rdf-schema#sameAs -->
+
+
+    <owl:AnnotationProperty rdf:about="http://www.w3.org/2000/01/rdf-schema#sameAs"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/logo -->
+
+
+    <owl:AnnotationProperty rdf:about="http://xmlns.com/foaf/0.1/logo"/>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasDetectDate -->
+
+
+    <owl:AnnotationProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasDetectDate"/>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasEventDate -->
+
+
+    <owl:AnnotationProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasEventDate"/>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasStartDate -->
+
+
+    <owl:AnnotationProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasStartDate"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Datatypes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://www.w3.org/2001/XMLSchema#date -->
+
+
+    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#date"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#actionAffectsDevice -->
+
+
+    <owl:ObjectProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#actionAffectsDevice">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction"/>
+        <rdfs:range rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:comment xml:lang="en">Inferred property linking action to device.</rdfs:comment>
+        <rdfs:label xml:lang="en">action affects device</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#causedByRisk -->
+
+
+    <owl:ObjectProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#causedByRisk">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Incident"/>
+        <rdfs:range rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">Relates an incident to the specific IMDRF risk that caused it.</rdfs:comment>
+        <rdfs:label xml:lang="en">caused by risk</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#deviceAffectedByAction -->
+
+
+    <owl:ObjectProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#deviceAffectedByAction">
+        <owl:inverseOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#actionAffectsDevice"/>
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:range rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction"/>
+        <rdfs:comment xml:lang="en">Relates a device to the corrective action affecting it.</rdfs:comment>
+        <rdfs:label xml:lang="en">device affected by action</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#deviceInvolvedIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#deviceInvolvedIn">
+        <owl:inverseOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#involvesDevice"/>
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:range rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Incident"/>
+        <rdfs:comment xml:lang="en">Relates a device to the incident it is involved in.</rdfs:comment>
+        <rdfs:label xml:lang="en">device involved in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#exposedToRisk -->
+
+
+    <owl:ObjectProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#exposedToRisk">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:range rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">Inferred property linking device to risk.</rdfs:comment>
+        <rdfs:label xml:lang="en">exposed to risk</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasManufacturer -->
+
+
+    <owl:ObjectProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasManufacturer">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:range rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer"/>
+        <rdfs:comment xml:lang="en">Relates a medical device to its manufacturer.</rdfs:comment>
+        <rdfs:label xml:lang="en">has manufacturer</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskClass -->
+
+
+    <owl:ObjectProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskClass">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:range rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass"/>
+        <rdfs:comment xml:lang="en">Relates a device to its regulatory risk class.</rdfs:comment>
+        <rdfs:label xml:lang="en">has risk class</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#incidentResolvedBy -->
+
+
+    <owl:ObjectProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#incidentResolvedBy">
+        <owl:inverseOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#resolvesIncident"/>
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Incident"/>
+        <rdfs:range rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction"/>
+        <rdfs:comment xml:lang="en">Relates an incident to the corrective action that resolves it.</rdfs:comment>
+        <rdfs:label xml:lang="en">incident resolved by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#involvesDevice -->
+
+
+    <owl:ObjectProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#involvesDevice">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Incident"/>
+        <rdfs:range rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:comment xml:lang="en">Relates an incident to the medical device involved.</rdfs:comment>
+        <rdfs:label xml:lang="en">involves device</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#isLocationOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#isLocationOf">
+        <owl:inverseOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#locatedIn"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Country"/>
+        <rdfs:range rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer"/>
+        <rdfs:comment xml:lang="en">Relates a country to the manufacturer located there.</rdfs:comment>
+        <rdfs:label xml:lang="en">is location of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturerOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturerOf">
+        <owl:inverseOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#hasManufacturer"/>
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer"/>
+        <rdfs:range rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:comment xml:lang="en">Relates a manufacturer to the device it produces.</rdfs:comment>
+        <rdfs:label xml:lang="en">is manufacturer of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturingLocationOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#isManufacturingLocationOf">
+        <owl:inverseOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#manufacturedIn"/>
+        <rdfs:domain rdf:resource="http://dbpedia.org/ontology/Country"/>
+        <rdfs:range rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:comment xml:lang="en">Relates a country to the device manufactured there.</rdfs:comment>
+        <rdfs:label xml:lang="en">is manufacturing location of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#isRiskClassOf -->
+
+
+    <owl:ObjectProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#isRiskClassOf">
+        <owl:inverseOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskClass"/>
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass"/>
+        <rdfs:range rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:comment xml:lang="en">Relates a risk class to the device assigned to it.</rdfs:comment>
+        <rdfs:label xml:lang="en">is risk class of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#locatedIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#locatedIn">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Country"/>
+        <rdfs:comment xml:lang="en">Relates a manufacturer to its geographical country.</rdfs:comment>
+        <rdfs:label xml:lang="en">located in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#manufacturedIn -->
+
+
+    <owl:ObjectProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#manufacturedIn">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:range rdf:resource="http://dbpedia.org/ontology/Country"/>
+        <rdfs:comment xml:lang="en">Inferred property linking device to country.</rdfs:comment>
+        <rdfs:label xml:lang="en">manufactured in</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#resolvesIncident -->
+
+
+    <owl:ObjectProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#resolvesIncident">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction"/>
+        <rdfs:range rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Incident"/>
+        <rdfs:comment xml:lang="en">Relates a corrective action (FSCA) to the incident it resolves.</rdfs:comment>
+        <rdfs:label xml:lang="en">resolves incident</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#riskCausesIncident -->
+
+
+    <owl:ObjectProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#riskCausesIncident">
+        <owl:inverseOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#causedByRisk"/>
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:range rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Incident"/>
+        <rdfs:comment xml:lang="en">Relates a risk to the incident it caused.</rdfs:comment>
+        <rdfs:label xml:lang="en">risk causes incident</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#riskExposesDevice -->
+
+
+    <owl:ObjectProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#riskExposesDevice">
+        <owl:inverseOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#exposedToRisk"/>
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:range rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:comment xml:lang="en">Relates a risk to the device exposed to it.</rdfs:comment>
+        <rdfs:label xml:lang="en">risk exposes device</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#actionTaken -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#actionTaken">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Incident"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Was action taken.</rdfs:comment>
+        <rdfs:label xml:lang="en">action taken</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#devicesAffected -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#devicesAffected">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Number of devices affected.</rdfs:comment>
+        <rdfs:label xml:lang="en">devices affected</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasAuthority -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasAuthority">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Competent authority.</rdfs:comment>
+        <rdfs:label xml:lang="en">has authority</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasDescription -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasDescription">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">General description.</rdfs:comment>
+        <rdfs:label xml:lang="en">has description</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasDeviceName -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasDeviceName">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Commercial or trade name of the medical device.</rdfs:comment>
+        <rdfs:label xml:lang="en">has device name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasEmail -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasEmail">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Contact email.</rdfs:comment>
+        <rdfs:label xml:lang="en">has email</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasEudamedRef -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasEudamedRef">
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment xml:lang="en">EUDAMED URL reference.</rdfs:comment>
+        <rdfs:label xml:lang="en">has Eudamed ref</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasFramework -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasFramework">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Regulatory framework MDR/IVDR.</rdfs:comment>
+        <rdfs:label xml:lang="en">has framework</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasGeoScope -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasGeoScope">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Regions or countries affected by a corrective action.</rdfs:comment>
+        <rdfs:label xml:lang="en">has geo scope</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasLegalName -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasLegalName">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Official legal name.</rdfs:comment>
+        <rdfs:label xml:lang="en">has legal name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasOutcome -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasOutcome">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Incident"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Clinical outcome.</rdfs:comment>
+        <rdfs:label xml:lang="en">has outcome</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientAge -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientAge">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Incident"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#integer"/>
+        <rdfs:comment xml:lang="en">Age of patient.</rdfs:comment>
+        <rdfs:label xml:lang="en">has patient age</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientSex -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasPatientSex">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Incident"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Sex of patient.</rdfs:comment>
+        <rdfs:label xml:lang="en">has patient sex</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasPriority -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasPriority">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Incident"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Priority of ocurrence</rdfs:comment>
+        <rdfs:label xml:lang="en">Has Priority</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasProbability -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasProbability">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Probability of occurrence.</rdfs:comment>
+        <rdfs:label xml:lang="en">has probability</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasPurpose -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasPurpose">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Intended purpose.</rdfs:comment>
+        <rdfs:label xml:lang="en">has purpose</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasReportDate -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasReportDate">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Incident"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment xml:lang="en">Date of report.</rdfs:comment>
+        <rdfs:label xml:lang="en">has report date</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskName -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskName">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Name of the risk.</rdfs:comment>
+        <rdfs:label xml:lang="en">has risk name</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasSRN -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasSRN">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Single Registration Number.</rdfs:comment>
+        <rdfs:label xml:lang="en">has SRN</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasSeverity -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasSeverity">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Severity level.</rdfs:comment>
+        <rdfs:label xml:lang="en">has severity</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasStatus -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasStatus">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Status of the action.</rdfs:comment>
+        <rdfs:label xml:lang="en">has status</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#hasUDI -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#hasUDI">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Unique Device Identifier.</rdfs:comment>
+        <rdfs:label xml:lang="en">has UDI</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#isActive -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#isActive">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Is active device.</rdfs:comment>
+        <rdfs:label xml:lang="en">is active</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#isIVD -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#isIVD">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Is in vitro diagnostic.</rdfs:comment>
+        <rdfs:label xml:lang="en">is IVD</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#isImplantable -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#isImplantable">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Is implantable device.</rdfs:comment>
+        <rdfs:label xml:lang="en">is implantable</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#isReusable -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#isReusable">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:comment xml:lang="en">Is reusable device.</rdfs:comment>
+        <rdfs:label xml:lang="en">is reusable</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#reportedBy -->
+
+
+    <owl:DatatypeProperty rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#reportedBy">
+        <rdfs:domain rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Incident"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">Reporting entity.</rdfs:comment>
+        <rdfs:label xml:lang="en">reported by</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://dbpedia.org/ontology/Country -->
+
+
+    <owl:Class rdf:about="http://dbpedia.org/ontology/Country">
+        <rdfs:comment xml:lang="en">Dbpedia Country</rdfs:comment>
+        <rdfs:label xml:lang="en">Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#ActiveDevice -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#ActiveDevice">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:comment xml:lang="en">Depends on energy source.</rdfs:comment>
+        <rdfs:label xml:lang="en">Active Device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#ActiveImplant -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#ActiveImplant">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:comment xml:lang="en">Active and implantable.</rdfs:comment>
+        <rdfs:label xml:lang="en">Active Implant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#ContaminationRisk -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#ContaminationRisk">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">Risk from biological, chemical, or particulate impurities.</rdfs:comment>
+        <rdfs:label xml:lang="en">Contamination Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction">
+        <rdfs:comment xml:lang="en">FSCA taken by manufacturer.</rdfs:comment>
+        <rdfs:label xml:lang="en">Corrective Action</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#CybersecurityRisk -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#CybersecurityRisk">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">Unauthorized access.</rdfs:comment>
+        <rdfs:label xml:lang="en">Cybersecurity Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#Device -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#Device">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#hasManufacturer"/>
+                <owl:minQualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:minQualifiedCardinality>
+                <owl:onClass rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#hasRiskClass"/>
+                <owl:qualifiedCardinality rdf:datatype="http://www.w3.org/2001/XMLSchema#nonNegativeInteger">1</owl:qualifiedCardinality>
+                <owl:onClass rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">Instrument intended for medical purposes.</rdfs:comment>
+        <rdfs:label xml:lang="en">Medical Device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#DeviceFailure -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#DeviceFailure">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">Failure to perform.</rdfs:comment>
+        <rdfs:label xml:lang="en">Device Failure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#DevicePerformance -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#DevicePerformance">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">Degradation in performance.</rdfs:comment>
+        <rdfs:label xml:lang="en">Device Performance Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#DeviceSafety -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#DeviceSafety">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">General safety risk.</rdfs:comment>
+        <rdfs:label xml:lang="en">Device Safety Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#DiagnosticError -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#DiagnosticError">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">Error in diagnosis.</rdfs:comment>
+        <rdfs:label xml:lang="en">Diagnostic Error</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#DiagnosticRisk -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#DiagnosticRisk">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">Risk in IVD.</rdfs:comment>
+        <rdfs:label xml:lang="en">Diagnostic Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#ImplantableDevice -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#ImplantableDevice">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:comment xml:lang="en">Introduced into body.</rdfs:comment>
+        <rdfs:label xml:lang="en">Implantable Device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#InSituCorrection -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#InSituCorrection">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction"/>
+        <rdfs:comment xml:lang="en">Modification at facility.</rdfs:comment>
+        <rdfs:label xml:lang="en">In Situ Correction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#InVitroDiagnosticDevice -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#InVitroDiagnosticDevice">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:comment xml:lang="en">Examination of specimens.</rdfs:comment>
+        <rdfs:label xml:lang="en">IVD Device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#Incident -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#Incident">
+        <rdfs:comment xml:lang="en">Vigilance event.</rdfs:comment>
+        <rdfs:label xml:lang="en">Incident</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#InfectionRisk -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#InfectionRisk">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">Risk of infection.</rdfs:comment>
+        <rdfs:label xml:lang="en">Infection Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#InferenceRisk -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#InferenceRisk">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">Risk derived from the data inference processes in medical software.</rdfs:comment>
+        <rdfs:label xml:lang="en">Inference Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#InjuryRisk -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#InjuryRisk">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">Risk of injury.</rdfs:comment>
+        <rdfs:label xml:lang="en">Injury Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#InterferenceRisk -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#InterferenceRisk">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">EMI interference.</rdfs:comment>
+        <rdfs:label xml:lang="en">Interference Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#MalfunctionRisk -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#MalfunctionRisk">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">Mechanical/electrical malfunction.</rdfs:comment>
+        <rdfs:label xml:lang="en">Malfunction Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer">
+        <rdfs:comment xml:lang="en">Legal entity responsible for device.</rdfs:comment>
+        <rdfs:label xml:lang="en">Manufacturer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#MaterialRisk -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#MaterialRisk">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">Material degradation.</rdfs:comment>
+        <rdfs:label xml:lang="en">Material Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#NearMissIncident -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#NearMissIncident">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Incident"/>
+        <rdfs:comment xml:lang="en">Could have caused harm.</rdfs:comment>
+        <rdfs:label xml:lang="en">Near Miss Incident</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#PatientHarm -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#PatientHarm">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">Physical injury.</rdfs:comment>
+        <rdfs:label xml:lang="en">Patient Harm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#ProductQuality -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#ProductQuality">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">Defect in manufacturing or performance degradation.</rdfs:comment>
+        <rdfs:label xml:lang="en">Product Quality Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#RadiationRisk -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#RadiationRisk">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">Radiation exposure.</rdfs:comment>
+        <rdfs:label xml:lang="en">Radiation Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#Recall -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#Recall">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction"/>
+        <rdfs:comment xml:lang="en">Return of device.</rdfs:comment>
+        <rdfs:label xml:lang="en">Recall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#Risk -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#Risk">
+        <rdfs:comment xml:lang="en">Adverse event or failure.</rdfs:comment>
+        <rdfs:label xml:lang="en">Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass">
+        <rdfs:comment xml:lang="en">Regulatory classification.</rdfs:comment>
+        <rdfs:label xml:lang="en">Risk Class</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#SafetyAlert -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#SafetyAlert">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction"/>
+        <rdfs:comment xml:lang="en">Field Safety Notice.</rdfs:comment>
+        <rdfs:label xml:lang="en">Safety Alert</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#SelfTestDevice -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#SelfTestDevice">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:comment xml:lang="en">Used by laypersons.</rdfs:comment>
+        <rdfs:label xml:lang="en">Self-Test Device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#SeriousIncident -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#SeriousIncident">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Incident"/>
+        <rdfs:comment xml:lang="en">Led to death or serious injury.</rdfs:comment>
+        <rdfs:label xml:lang="en">Serious Incident</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#SingleUseDevice -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#SingleUseDevice">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+        <rdfs:comment xml:lang="en">Used for single procedure.</rdfs:comment>
+        <rdfs:label xml:lang="en">Single Use Device</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#SoftwareRisk -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#SoftwareRisk">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+        <rdfs:comment xml:lang="en">Software anomaly.</rdfs:comment>
+        <rdfs:label xml:lang="en">Software Risk</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#UserNotice -->
+
+
+    <owl:Class rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#UserNotice">
+        <rdfs:subClassOf rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction"/>
+        <rdfs:comment xml:lang="en">Information to users.</rdfs:comment>
+        <rdfs:label xml:lang="en">User Notice</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    
+
+
+    <!-- http://dbpedia.org/resource/Germany -->
+
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Germany"/>
+    
+
+
+    <!-- http://dbpedia.org/resource/Ireland -->
+
+
+    <owl:NamedIndividual rdf:about="http://dbpedia.org/resource/Ireland"/>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#ClassIII -->
+
+
+    <owl:NamedIndividual rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#ClassIII">
+        <rdf:type rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass"/>
+        <rdfs:comment xml:lang="en">Highest risk class under MDR.</rdfs:comment>
+        <rdfs:label xml:lang="en">Class III</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#ClassIIb -->
+
+
+    <owl:NamedIndividual rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#ClassIIb">
+        <rdf:type rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass"/>
+        <rdfs:comment xml:lang="en">High risk class under MDR.</rdfs:comment>
+        <rdfs:label xml:lang="en">Class IIb</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#DEV-001 -->
+
+
+    <owl:NamedIndividual rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#DEV-001">
+        <rdf:type rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#ActiveImplant"/>
+        <documentation:hasManufacturer rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#MAN-001"/>
+        <documentation:hasRiskClass rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#ClassIII"/>
+        <documentation:hasDeviceName>HeartMate 3 LVAD</documentation:hasDeviceName>
+        <documentation:hasUDI>(01)00380740009095</documentation:hasUDI>
+        <rdfs:comment xml:lang="en">Left ventricular assist device.</rdfs:comment>
+        <rdfs:label xml:lang="en">HeartMate 3 LVAD</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002 -->
+
+
+    <owl:NamedIndividual rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002">
+        <rdf:type rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#ActiveImplant"/>
+        <documentation:hasManufacturer rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#MAN-001"/>
+        <documentation:hasRiskClass rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#ClassIII"/>
+        <documentation:hasDeviceName>Micra AV Transcatheter Pacing System</documentation:hasDeviceName>
+        <documentation:hasFramework>MDR</documentation:hasFramework>
+        <documentation:hasPurpose>Leadless cardiac pacemaker for atrioventricular synchrony</documentation:hasPurpose>
+        <documentation:hasUDI>(01)00380740009112</documentation:hasUDI>
+        <documentation:isActive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</documentation:isActive>
+        <documentation:isIVD rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</documentation:isIVD>
+        <documentation:isImplantable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</documentation:isImplantable>
+        <documentation:isReusable rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</documentation:isReusable>
+        <rdfs:comment xml:lang="en">Leadless cardiac pacemaker.</rdfs:comment>
+        <rdfs:label xml:lang="en">Micra AV Pacemaker</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-001 -->
+
+
+    <owl:NamedIndividual rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-001">
+        <rdf:type rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#SafetyAlert"/>
+        <documentation:resolvesIncident rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#INC-001"/>
+        <documentation:hasStatus>Open</documentation:hasStatus>
+        <rdfs:comment xml:lang="en">Safety alert for HeartMate 3.</rdfs:comment>
+        <rdfs:label xml:lang="en">FSCA-001</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-002 -->
+
+
+    <owl:NamedIndividual rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#FSCA-002">
+        <rdf:type rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Recall"/>
+        <documentation:resolvesIncident rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#INC-002"/>
+        <documentation:devicesAffected rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1240</documentation:devicesAffected>
+        <documentation:hasDescription>Voluntary recall due to premature battery depletion. Replacement units provided.</documentation:hasDescription>
+        <documentation:hasEudamedRef rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">EU-FSCA-2024-000002</documentation:hasEudamedRef>
+        <documentation:hasGeoScope>Micra AV lots manufactured between 2022-09 and 2023-03</documentation:hasGeoScope>
+        <documentation:hasStatus>Closed</documentation:hasStatus>
+        <rdfs:comment xml:lang="en">Recall for Micra AV.</rdfs:comment>
+        <rdfs:label xml:lang="en">FSCA-002</rdfs:label>
+        <documentation:hasStartDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-28T00:00:00</documentation:hasStartDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#INC-001 -->
+
+
+    <owl:NamedIndividual rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#INC-001">
+        <rdf:type rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#SeriousIncident"/>
+        <documentation:causedByRisk rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#RSK-003"/>
+        <documentation:involvesDevice rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#DEV-001"/>
+        <documentation:hasOutcome>Serious patient injury - embolic stroke</documentation:hasOutcome>
+        <rdfs:comment xml:lang="en">Incident for HeartMate 3.</rdfs:comment>
+        <rdfs:label xml:lang="en">INC-001</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#INC-002 -->
+
+
+    <owl:NamedIndividual rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#INC-002">
+        <rdf:type rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#SeriousIncident"/>
+        <documentation:causedByRisk rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#RSK-009"/>
+        <documentation:involvesDevice rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#DEV-002"/>
+        <documentation:actionTaken rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</documentation:actionTaken>
+        <documentation:hasEudamedRef rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">EU-INC-2024-000002</documentation:hasEudamedRef>
+        <documentation:hasOutcome>Device malfunction - premature battery depletion</documentation:hasOutcome>
+        <documentation:hasPatientAge rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">72</documentation:hasPatientAge>
+        <documentation:hasPatientSex>Female</documentation:hasPatientSex>
+        <documentation:hasReportDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-03T00:00:00</documentation:hasReportDate>
+        <documentation:reportedBy>MAN-001</documentation:reportedBy>
+        <rdfs:comment xml:lang="en">Incident for Micra AV.</rdfs:comment>
+        <rdfs:label xml:lang="en">INC-002</rdfs:label>
+        <documentation:hasDetectDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-02-01T00:00:00</documentation:hasDetectDate>
+        <documentation:hasEventDate rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-01-29T00:00:00</documentation:hasEventDate>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#MAN-001 -->
+
+
+    <owl:NamedIndividual rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#MAN-001">
+        <rdf:type rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer"/>
+        <documentation:locatedIn rdf:resource="http://dbpedia.org/resource/Ireland"/>
+        <documentation:hasAuthority>Health Products Regulatory Authority (HPRA)</documentation:hasAuthority>
+        <documentation:hasEmail>regulatory@medtronic.com</documentation:hasEmail>
+        <documentation:hasLegalName>Medtronic plc</documentation:hasLegalName>
+        <documentation:hasSRN>SRN-IE-MED-0001</documentation:hasSRN>
+        <rdfs:comment xml:lang="en">Multinational medical device manufacturer.</rdfs:comment>
+        <rdfs:label xml:lang="en">Medtronic plc</rdfs:label>
+        <rdfs:sameAs xml:lang="en">http://dbpedia.org/resource/Medtronic</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#MAN-002 -->
+
+
+    <owl:NamedIndividual rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#MAN-002">
+        <rdf:type rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer"/>
+        <documentation:locatedIn rdf:resource="http://dbpedia.org/resource/Germany"/>
+        <documentation:hasLegalName>Abbott Laboratories</documentation:hasLegalName>
+        <rdfs:comment xml:lang="en">Global manufacturer.</rdfs:comment>
+        <rdfs:label xml:lang="en">Abbott Medical Devices</rdfs:label>
+        <rdfs:sameAs xml:lang="en">http://dbpedia.org/resource/Abbott_Laboratories</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#RSK-003 -->
+
+
+    <owl:NamedIndividual rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#RSK-003">
+        <rdf:type rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#InjuryRisk"/>
+        <documentation:hasRiskName>Thrombosis - device-related</documentation:hasRiskName>
+        <documentation:hasSeverity>Critical</documentation:hasSeverity>
+        <rdfs:comment xml:lang="en">Thrombus formation on device.</rdfs:comment>
+        <rdfs:label xml:lang="en">Device-related Thrombosis</rdfs:label>
+        <rdfs:sameAs xml:lang="en">https://www.imdrf.org/working-groups/adverse-event-terminology/annex-medical-device-problem/A0201</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- https://manelnight.github.io/cedmar2/docs/documentation/#RSK-009 -->
+
+
+    <owl:NamedIndividual rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#RSK-009">
+        <rdf:type rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#MalfunctionRisk"/>
+        <documentation:hasDescription>Battery end-of-life earlier than specified, risking therapy interruption</documentation:hasDescription>
+        <documentation:hasProbability>Low</documentation:hasProbability>
+        <documentation:hasRiskName>Battery depletion - premature</documentation:hasRiskName>
+        <documentation:hasSeverity>Critical</documentation:hasSeverity>
+        <rdfs:comment xml:lang="en">Battery end-of-life earlier than specified.</rdfs:comment>
+        <rdfs:label xml:lang="en">Battery depletion - premature</rdfs:label>
+        <rdfs:sameAs xml:lang="en">https://www.imdrf.org/working-groups/adverse-event-terminology/annex-medical-device-problem/A0501</rdfs:sameAs>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction"/>
+            <rdf:Description rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+            <rdf:Description rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#Incident"/>
+            <rdf:Description rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#Manufacturer"/>
+            <rdf:Description rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#Risk"/>
+            <rdf:Description rdf:about="https://manelnight.github.io/cedmar2/docs/documentation/#RiskClass"/>
+        </owl:members>
+    </rdf:Description>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Rules
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+
+    <rdf:Description rdf:about="https://manelnight.github.io/CEDMAR/docs/documentation#d">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://manelnight.github.io/CEDMAR/docs/documentation#m">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://manelnight.github.io/CEDMAR/docs/documentation#c">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://manelnight.github.io/CEDMAR/docs/documentation#i">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description rdf:about="https://manelnight.github.io/CEDMAR/docs/documentation#r">
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Variable"/>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Infers the manufacturing country of a device based on its manufacturer.</rdfs:comment>
+        <rdfs:label>Rule3_ManufacturedIn</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                        <swrl:classPredicate rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Device"/>
+                        <swrl:argument1 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#d"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#locatedIn"/>
+                                <swrl:argument1 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#m"/>
+                                <swrl:argument2 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#c"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                        <swrl:propertyPredicate rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#hasManufacturer"/>
+                                        <swrl:argument1 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#d"/>
+                                        <swrl:argument2 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#m"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#manufacturedIn"/>
+                        <swrl:argument1 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#d"/>
+                        <swrl:argument2 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#c"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Infers which devices are affected by a corrective action.</rdfs:comment>
+        <rdfs:label>Rule2_ActionAffects</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#resolvesIncident"/>
+                        <swrl:argument1 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#c"/>
+                        <swrl:argument2 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#i"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#involvesDevice"/>
+                                <swrl:argument1 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#i"/>
+                                <swrl:argument2 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#d"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#CorrectiveAction"/>
+                                        <swrl:argument1 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#c"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#actionAffectsDevice"/>
+                        <swrl:argument1 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#c"/>
+                        <swrl:argument2 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#d"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+    <rdf:Description>
+        <swrla:isRuleEnabled rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</swrla:isRuleEnabled>
+        <rdfs:comment>Infers the risk a device is exposed to based on its incidents.</rdfs:comment>
+        <rdfs:label>Rule1_ExposedToRisk</rdfs:label>
+        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#Imp"/>
+        <swrl:body>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#causedByRisk"/>
+                        <swrl:argument1 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#i"/>
+                        <swrl:argument2 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#r"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                        <rdf:first>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                                <swrl:propertyPredicate rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#involvesDevice"/>
+                                <swrl:argument1 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#i"/>
+                                <swrl:argument2 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#d"/>
+                            </rdf:Description>
+                        </rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                                <rdf:first>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#ClassAtom"/>
+                                        <swrl:classPredicate rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#Incident"/>
+                                        <swrl:argument1 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#i"/>
+                                    </rdf:Description>
+                                </rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </rdf:rest>
+            </rdf:Description>
+        </swrl:body>
+        <swrl:head>
+            <rdf:Description>
+                <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#AtomList"/>
+                <rdf:first>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/2003/11/swrl#IndividualPropertyAtom"/>
+                        <swrl:propertyPredicate rdf:resource="https://manelnight.github.io/cedmar2/docs/documentation/#exposedToRisk"/>
+                        <swrl:argument1 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#d"/>
+                        <swrl:argument2 rdf:resource="https://manelnight.github.io/CEDMAR/docs/documentation#r"/>
+                    </rdf:Description>
+                </rdf:first>
+                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+            </rdf:Description>
+        </swrl:head>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 5.1.18) https://github.com/owlcs/owlapi/ -->
+
+
